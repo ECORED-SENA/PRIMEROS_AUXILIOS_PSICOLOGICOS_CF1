@@ -9,12 +9,19 @@
           i.fas.fa-info
       h1 Introducción
     
-    figure.mb-5
+    .row.justify-content-center.mb-5
+      .col-auto.lineas
+        figure
+          img(src='@/assets/curso/lineas.svg', alt='lineas', style='width: 85px').m-auto
+      .col-lg
+        p.mb-0 En este componente de formación se abordarán los conceptos básicos de salud mental, los factores de riesgo asociados, los trastornos mentales comunes que presentan mayor prevalencia en Colombia y que deben ser conocidos desde sus síntomas y manifestaciones para poder ser atendidos en caso de una crisis asociada a los mismos. 
+          b(style='color: #008BFD;') De igual forma se abordará el concepto de crisis desde sus manifestaciones más comunes y desde sus reacciones, para finalizar con los principios y lineamientos de los primeros auxilios psicológicos.
+    
+    figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+      
     
-    p.mb-5 La necesidad de mitigar la pandemia por COVID-19 ha obligado a la comunidad científica internacional, a desarrollar una serie de investigaciones y desarrollos tendientes a presentar una vacuna para hacerle frente a esta enfermedad que aumenta día a día su morbi mortalidad en Colombia. Es así, como en diciembre de 2020, la comunidad científica presenta los resultados de varios desarrollos de vacunas, que ofrecen eficacia y seguridad, respaldados por estudios clínicos rigurosos.
 
 
 
