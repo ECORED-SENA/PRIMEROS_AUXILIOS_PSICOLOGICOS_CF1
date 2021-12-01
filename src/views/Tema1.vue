@@ -249,10 +249,10 @@
           .col-10.col-lg-4.mb-4.mb-lg-0.lineas
             figure
               img(src='@/assets/curso/tema1/img9.png' alt='imagen ambiental', style='width: 400px').m-auto
-          .col-lg-8.fondo-ancla2
+          #anclas.col-lg-8.fondo-ancla2
             .row.justify-content-center.gx-lg-2
               .col-6.col-md-3.mb-4.mb-lg-0
-                .tarjeta--boton.color-amarillo.p-4.mb-4.mb-lg-0.h-100
+                .tarjeta--boton.color-amarillo.p-4.mb-4.mb-lg-0.h-100(@click="goToElement('1')" @mouseover="mostrarIndicador = false")
                   .row.justify-content-center.mb-3
                     .col-7
                       figure
@@ -261,7 +261,7 @@
                   p.mb-0.text-center Trastornos mentales comunes
                   
               .col-6.col-md-3.mb-4.mb-lg-0
-                .tarjeta--boton.color-amarillo.p-4.mb-4.mb-lg-0.h-100
+                .tarjeta--boton.color-amarillo.p-4.mb-4.mb-lg-0.h-100(@click="goToElement('2')" @mouseover="mostrarIndicador = false")
                   .row.justify-content-center.mb-3
                     .col-8
                       figure
@@ -270,7 +270,7 @@
                   p.mb-0.text-center Trastornos depresivos
                   
               .col-6.col-md-3.mb-4.mb-lg-0
-                .tarjeta--boton.color-amarillo.p-4.mb-4.mb-lg-0.h-100
+                .tarjeta--boton.color-amarillo.p-4.mb-4.mb-lg-0.h-100(@click="goToElement('3')" @mouseover="mostrarIndicador = false")
                   .row.justify-content-center.mb-3
                     .col-7
                       figure
@@ -279,7 +279,7 @@
                   p.mb-0.text-center Trastornos de ansiedad
                   
               .col-6.col-md-3.mb-4.mb-lg-0
-                .tarjeta--boton.color-amarillo.p-4.mb-4.mb-lg-0.h-100
+                .tarjeta--boton.color-amarillo.p-4.mb-4.mb-lg-0.h-100(@click="goToElement('4')" @mouseover="mostrarIndicador = false")
                   .row.justify-content-center.mb-3
                     .col-7
                       figure
@@ -290,23 +290,206 @@
         .row.justify-content-center.mb-5
           .col-11(style='border-bottom: dotted 4px #e8e8e8; ')
           
-
-
-
+        #1.row.justify-content-between.mb-5
+          .col-auto
+            .px-4.py-2(style='background-color: #008BFD; border-radius: 50px;')
+              h4.text-white.mb-0 Trastornos mentales comunes
+          .col-auto
+            figure(@click="goToElement('anclas')" @mouseover="mostrarIndicador = false")
+              img(src='@/assets/curso/tema1/up.svg', alt='icon', style='width: 33px').m-auto
+            
+        .row.justify-content-center.align-items-top.mb-5
+          .col-lg-4.mb-4.mb-lg-0
+            p.mb-0 Se han denominado trastornos mentales comunes a aquellos que presentan mayor prevalencia en el mundo. La Organización Panamericana de la Salud (2017) plantea que los trastornos mentales comunes se refieren a dos categorías principales de diagnóstico: los trastornos depresivos y los trastornos de ansiedad. Estos trastornos son altamente prevalentes en la población (de ahí que se consideren “comunes”) y repercuten en el estado de ánimo o los sentimientos de las personas afectadas. Los síntomas varían en cuanto a su intensidad (de leves a severos) y duración (de meses a años). Estos trastornos son condiciones de salud diagnosticables y se diferencian de los sentimientos de tristeza, estrés o temor que cualquiera puede experimentar ocasionalmente en su vida. 
+              b(style='color: #008BFD;') (Depresión y otros trastornos mentales comunes. Estimaciones sanitarias mundiales. Washington, D.C.: Organización Panamericana de la Salud; 2017.)
+              
+          .col-10.col-lg-4.mb-4.mb-lg-0.lineas2
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/img10.jpg' alt='imagen ambiental', style='width: 400px').m-auto
+            
+          .col-lg-4
+            .row.mb-4.lineas
+              .col-auto
+                figure
+                  img(src='@/assets/curso/tema1/ondulada.svg' alt='AvatarTop', style='width: 50px').m-auto
+            .p-4.py-3(style="background-color: #D4E2EE")
+              p.mb-0 En Colombia en el marco de la Encuesta Nacional de Salud Mental se encontraron como 
+                b(style='color: #008BFD;') trastornos prevalentes la ansiedad de cualquier tipo, la fobia social, la depresión de cualquier tipo. 
+                b-none De igual forma el suicidio, sin ser un diagnóstico en sí mismo, representa un resultado no deseado en salud mental, que tiene diferentes causas y factores para su ocurrencia, pero que la prevalencia se encuentra en el proceso suicida, más que el acto suicida ocurrido.
+                
+        .row.justify-content-center.mb-4
+          .col-lg-6
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/img11.jpg' alt='imagen ambiental', style='width: 610px').m-auto
+          .col-lg-6
+            .row.mb-4
+              .col-auto
+                figure
+                  img(src='@/assets/curso/tema1/lines-vertical.svg' alt='AvatarTop', style='width: 50px').m-auto
+            p.mb-4 Se dice que todas las personas a lo largo de la vida pueden llegar o llegarán sufrir algún tipo de trastorno mental común, lo que significa que la prevalencia en la aparición de estos síntomas es bastante alta y por tanto se debe trabajar en la prevención de los diferentes factores de riesgo que pueden desencadenarla. 
+            p.mb-0 Por lo general los hábitos influyen de manera importante en la aparición o no de estos trastornos. 
+              b(style='color: #008BFD;') Es así como la ingesta de licor o cualquier otro tipo de sustancias psicoactiva, la vida sedentaria, la despreocupación por aprender a manejar y gestionar las emociones y los conflictos de forma positiva, la falta de un proyecto de vida que entregue propósito de vida,
+              b-none son algunas de las causas que pueden desencadenar la aparición de la enfermedad en cualquier momento del ciclo vital.
 
 
     
+    .row.justify-content-center.mb-5
+      .col-11(style='border-bottom: dotted 4px #e8e8e8;')
+
+
+    #2.row.justify-content-between.mb-5
+      .col-auto
+        .px-4.py-2(style='background-color: #008BFD; border-radius: 50px;')
+          h4.text-white.mb-0 Trastornos depresivos
+      .col-auto
+        figure(@click="goToElement('anclas')" @mouseover="mostrarIndicador = false")
+          img(src='@/assets/curso/tema1/up.svg', alt='icon', style='width: 33px').m-auto
+
+
+    .row.justify-content-center.fondo-img.mb-4(:style="{'background-image': `url(${require('@/assets/curso/tema1/fondo-img1.png')})`}" style='background-position: right top')
+      .col-lg-12.px-5
+        .row.justify-content-center.mb-5
+          .col-lg-7.mb-4.mb-lg-0
+            p.mb-4 La depresión se enmarca en 
+              b(style="color: #008BFD") una emoción constante de tristeza que se alimenta de forma recurrente con pensamientos que la anidan y desencadenan conductas como la falta de interés o de placer, tendencia a la culpa, una baja autoestima, exceso de sueño o pérdida de este, alteración del apetito, cansancio, dolor muscular, dificultades para concentrarse, baja atención y mirada oscura de la vida. 
+              b-none Las personas con trastornos depresivos tienen dificultades para ser productivas, ya sea en su trabajo o en el estudio, por lo general la vida se vuelve difícil de sobrellevar en su cotidianidad. Por este motivo uno de los riesgos más altos de una depresión severa, es el suicidio, debido precisamente a ese cansancio con la vida que el trastorno produce.
+                
+            p.mb-4 Los trastornos depresivos se clasifican dos categorías: 
+              
+            TabsA.color-primario.mb-0
+              .tarjeta.bg-colorD.p-4(titulo="Trastorno depresivo mayor")
+                .row.justify-content-center
+                  .col-12.p-5.py-3
+                    h4.mb-4 Trastorno depresivo mayor
+                    p.mb-0 De acuerdo con sus manifestaciones e intensidad puede ser leve, moderado o severo.
+                      
+              .tarjeta.bg-colorD.p-4(titulo="Distimia")
+                .row.justify-content-center
+                  .col-12.p-5.py-3
+                    h4.mb-4 Distimia
+                    p.mb-0 Se caracteriza por ser un proceso depresivo leve pero crónico. La diferencia entre cada categoría está fundamentalmente en la severidad de los síntomas y en la persistencia de estos. (Depresión y otros trastornos mentales comunes. Estimaciones sanitarias mundiales. Washington, D.C.: Organización Panamericana de la Salud; 2017. ).
+                
+          .col-10.col-lg-5
+            figure
+              img(src='@/assets/curso/tema1/img12.png', alt='imagen ambienteal', style='width: 500px').m-auto
+            
+        .row.justify-content-center.mb-0
+          .col-lg-12
+            .bloque-texto-a.color-primario.p-4.p-md-5.mb-5 
+              .row.m-0.align-items-center.justify-content-between
+                .col-lg-3.mb-4.mb-lg-0
+                  h3.mb-0 Otra manifestación de esta patología depresiva es la siguiente: 
+                .col-lg-9
+                  .bloque-texto-a__texto.p-4
+                    h4.mb-4(style="color: #008BFD") La depresión se enmarca en 
+                    p.mb-0 Otra manifestación de esta patología depresiva es el llamado trastorno afectivo bipolar que maneja dos tipos de picos emocionales: tristeza profunda y episodios maníacos caracterizados por una gran exaltación emocional que desencadena sobreactividad, verborrea, pérdida del sueño, exageración de episodios reales.
+                    
+    .row.justify-content-center.mb-0
+      .col-11(style='border-bottom: dotted 4px #e8e8e8;')
     
+    .row.justify-content-center.fondo-gradiente.mb-5
+      .col-lg-12.px-md-5.pt-5
+        #3.row.justify-content-between.mb-5
+          .col-auto
+            .px-4.py-2(style='background-color: #008BFD; border-radius: 50px;')
+              h4.text-white.mb-0 Trastornos de ansiedad
+          .col-auto
+            figure(@click="goToElement('anclas')" @mouseover="mostrarIndicador = false")
+              img(src='@/assets/curso/tema1/up.svg', alt='icon', style='width: 33px').m-auto
+              
+        .row.justify-content-center.mb-5
+          .col-lg-7.mb-4.mb-lg-0
+            p.mb-4 Los trastornos de ansiedad se enmarcan en una emoción constante de miedo que genera dificultades para enfrentar situaciones mínimas de la vida, generando un desborde de emociones, pánico y confusión. Estos trastornos se clasifican en:
+            AcordionA(tipo="b" clase-tarjeta="tarjeta bg-colorD")
+              .row(titulo="Ansiedad generalizada")
+                .col-md-12
+                  p.mb-0 Por lo general las personas presentan miedo, angustia y preocupación extrema por muchas cosas, sin distinción aparente de la causa. 
+                  
+              .row(titulo="Ansiedad social ")
+                .col-md-12
+                  p.mb-0 La principal manifestación es el miedo que produce el contacto con las personas, es sentirse observado. Esta ansiedad puede llegar incluso a manifestar síntomas cuando se realizan acciones cotidianas como una llamada telefónica, hablar con el señor del supermercado para resolver una duda.
+                  
+              .row(titulo="Trastorno de ansiedad fóbica")
+                .col-md-12
+                  p.mb-0 Las fobias se manifiestan como miedos específicos a ciertos objetos, situaciones o condiciones que van de la mano de una distorsión del condicionamiento del miedo. Cuando una fobia se convierte en una situación disfuncional, es decir que dificulta la vida y la productividad, entra a hacer parte de los trastornos de ansiedad. Como ejemplo están los miedos a las alturas, a los lugares cerrados, entre otros. (Consultar documento de apoyo: Bados, A:  Fobias específicas. Universidad de Barcelona. 2009).
+                  
+              .row(titulo="Trastorno de angustia")
+                .col-md-12
+                  p.mb-0 Se conoce de forma más cercana como trastorno de pánico y se caracteriza por manifestarse a través de crisis de miedo intenso, sin existir realmente una condición de peligro. Las personas tienen diferentes manifestaciones como huida, llanto, dificultad para tomar decisiones, distorsiones cognitivas.
+                  
+              .row(titulo="TOC o Trastorno Obsesivo Compulsivo")
+                .col-md-12
+                  p.mb-0 Como principal manifestación están las conductas repetitivas de carácter compulsivo,  por lo general relacionadas con pensamientos irracionales alrededor de la organización de espacios, acumulación de objetos, lavado de manos y limpieza de superficies por miedo a gérmenes.
+                  
+              .row(titulo="Trastorno de Estrés Postraumático o TEPT")
+                .col-md-12
+                  p.mb-0 Este trastorno aparece como consecuencia de un hecho que produce trauma en la personas: abuso sexual, agresión, desastres, muerte súbita. Cuando ocurre el trauma la persona alcanza a procesar con sus recursos emocionales y psicológicos el impacto y puede llegar a desarrollar en el futuro estrés postraumático. Este se manifiesta a través de la recurrencia del recuerdo traumático y la manifestación física y fisiológica de los síntomas, como si estuviera viviendo el hecho nuevamente.
+                  
+          .col-10.col-lg-5
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema1/img13.jpg' alt='imagen ambiental', style='width: 500px').m-auto
+
+    .row.justify-content-center.mb-5
+      .col-11(style='border-bottom: dotted 4px #e8e8e8;')
     
+    #4.row.justify-content-between.mb-5
+      .col-auto
+        .px-4.py-2(style='background-color: #008BFD; border-radius: 50px;')
+          h4.text-white.mb-0 Sintomas
+      .col-auto
+        figure(@click="goToElement('anclas')" @mouseover="mostrarIndicador = false")
+          img(src='@/assets/curso/tema1/up.svg', alt='icon', style='width: 33px').m-auto
+
+    .row.justify-content-center.mb-0
+      .col-lg-12
+        .bloque-texto-a.color-primario.p-4.p-md-5.mb-4
+          .row.m-0.align-items-center.justify-content-center
+            .col-lg-3.mb-4.mb-lg-0
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/img14.svg', alt='imagen ambiental', style='width: 250px').m-auto
+            .col-lg-9
+              .bloque-texto-a__texto.p-4
+                h4.mb-4(style="color: #008BFD") Síntomas
+                p.mb-4 Los síntomas se pueden presentar de forma crónica o en episodios específicos y la enfermedad varía de acuerdo a la levedad o severidad de los síntomas. En la siguiente tabla se pueden apreciar cada uno de estos:  
+                .row
+                  .col-auto
+                    a.anexo.mb-0(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-pdf.svg")
+                      .anexo__texto
+                        p.mb-0 
+                          b(style="color: #008BFD") Anexo. 
+                          b-none(style="color: #008BFD") Trastornos_mentales_comunes
+
+
+
     separador
     #t_1_3.titulo-segundo.color-acento-contenido
       .h2 1.3 Crisis
   
 
+    p.mb-5 Todas las personas a lo largo de la vida están expuestas a circunstancias difíciles ya sea por situaciones determinadas por el entorno, como una guerra, o por un desastre natural inesperado, como un terremoto o por las situaciones propias de la vida como la muerte de las personas amadas, la pérdida afectiva, los fracasos laborales, entre muchas condiciones que pueden generar desestabilización emocional y psicológica en una persona.
 
 
-
-
+    .row.justify-content-center.align-items-top.mb-5
+        .col-10.col-lg-4.mb-4.mb-lg-0.pe-lg-0
+          figure
+            img(src='@/assets/curso/tema1/img15.svg' alt='imagen ambiental', style='width: ').m-auto
+            
+        .col-lg-4.mb-4.mb-lg-0.ps-lg-0
+          .bg--green.p-4
+            p.mb-0 Los seres humanos cuentan con recursos emocionales, psicológicos y cognitivos para afrontar los desafíos y retos de la vida hace parte del instinto de supervivencia y de los aprendizajes que durante el desarrollo que van dando desde la interacción social; sin embargo, algunas personas pueden necesitar ayudas adicionales, ya que se sale de su control y manejo la exposición a eventos difíciles y traumáticos. En este escenario es donde se configura la 
+              b(style='color: #008BFD;') “crisis”
+              b-none .
+              
+        .col-lg-4
+          .row.mb-3.lineas
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema1/equis2.svg' alt='AvatarTop', style='width: 55px').m-auto
+          p.mb-0 A diferencia del problema mental, el trastorno viene acompañado de síntomas más severos que generan disfuncionalidad evidente. Por ejemplo, 
+            b(style='color: #008BFD;') en el caso de la depresión, existe una diferencia con los estados de tristeza, ya que esta enfermedad se manifiesta adicionalmente con pensamientos oscuros frente a la vida, desmotivación, dificultad para salir de la cama, llanto incontenido y la tristeza se vive como una emoción de dolor, más no genera distorsión cognitiva aparente. 
+            
 
 
 
@@ -334,6 +517,12 @@ export default {
   },
   updated() {
     this.$aosRefresh()
+  },
+  methods: {
+    goToElement(id) {
+      const ele = document.getElementById(id)
+      window.scrollTo(ele.offsetLeft, ele.offsetTop + 100)
+    },
   },
 }
 </script>
