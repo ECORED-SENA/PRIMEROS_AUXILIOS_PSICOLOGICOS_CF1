@@ -171,47 +171,308 @@
         p.mb-0 
           b(style='color: #008BFD;') Fases de la Crisis
 
-    .row.justify-content-center.mb-4
-      .col-lg-11
-        ImagenInfografica.color-acento-botones.mb-5
+    .row.justify-content-center.fondo-gradiente-inverso
+      .col-lg-12.px-md-5
+        .row.justify-content-center.mb-4
+          .col-lg-11
+            ImagenInfografica.color-acento-botones.mb-5
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema2/infografia2.svg', alt='', style='')
+                  
+              .tarjeta.color-acento-botones.p-4(x="9%" y="22%" numero="1" style='border-radius: 10px; background-color: #FFE8C8')
+                h5.mb-3.text-center Fase uno Exposición al evento crítico
+                p.mb-0.text-center Produce tensión y puede aparecer un estado de shock que protege a la víctima de una condición abrumadora. De forma inconsciente el cerebro se prepara para dar una respuesta efectiva, sacando los recursos de afrontamiento aprendidos para recuperar el equilibrio.
+                  
+              .tarjeta.color-acento-botones.p-4(x="28%" y="80%" numero="2" style='border-radius: 10px; background-color: #FFE8C8')
+                h5.mb-3.text-center Fase dos Respuesta desorganizada
+                p.mb-0.text-center Hay aumento de la tensión y las respuestas emocionales y cognitivas fallan para enfrentar la crisis de forma adecuada. Las respuestas  se tornan confusas y  provocan  disfunciones.
+                  
+              .tarjeta.color-acento-botones.p-4(x="47%" y="22%" numero="3" style='border-radius: 10px; background-color: #FFE8C8')
+                h5.mb-3.text-center Fase tres Explosión
+                p.mb-0.text-center Se pierde el control de las emociones, los pensamientos y los comportamientos tienden a ser contradictorios. Las reacciones pueden pasar de pasivas a agresivas durante semanas.
+                  
+              .tarjeta.color-acento-botones.p-4(x="66%" y="77%" numero="4" style='border-radius: 10px; background-color: #FFE8C8')
+                h5.mb-3.text-center Fase cuatro Estabilización
+                p.mb-0.text-center Inicia la calma a medida que aparecen los recursos alternos. La persona es muy vulnerable en este momento y puede volver a la fase de explosión . Hay cierto nivel de conciencia de lo que ha sucedido, pero las reacciones ya no son tan extremas.
+                  
+              .tarjeta.color-acento-botones.p-4(x="85%" y="22%" numero="5" style='border-radius: 10px; background-color: #FFE8C8')
+                h5.mb-3.text-center Fase cinco Adaptación
+                p.mb-0.text-center Comienza el proceso de control sobre las acciones, puede concentrarse en otras situaciones, además del evento vivido, orienta interés por el futuro, se reactiva la socialización y puede descubrir nuevos rumbos a partir de la experiencia vivida.
+                  
+            figcaption 
+              p.mb-0 
+                b Nota. 
+                b-none Textos adaptados del Manual de Primeros Auxilios Psicológicos. Federación Internacional de sociedades de la Cruz Roja.
+            
+        .row.justify-content-center
+          separador
+          #t_2_3.titulo-segundo.color-acento-contenido
+            .h2 2.3 Trastornos y reacciones frente a una crisis
+            
+        .row.justify-content-center.mb-5
+          .col-lg-4.mb-4-mb-lg-0
+            p.mb-0 Toda situación de crisis genera reacciones debido a la activación del sistema nervioso simpático, responsable de la respuesta automática frente a la percepción de peligro. Los cambios reactivos se ven reflejados internamente con 
+              b(style='color: #008BFD;') el aumento de la segregación de adrenalina y cortisona o cortisol, hormonas responsables de la preparación del cuerpo para la huida o el ataque. 
+            
+          .col-10.col-lg-4.mb-4.mb-lg-0
+            figure(data-aos='zoom-in')
+              img(src='@/assets/curso/tema2/img2.svg' alt='imagen ambiental', style='width: ').m-auto
+            
+          .col-lg-4.mb-4.mb-lg-0
+            .bg--green.p-4.mb-4
+              .row.mb-4.lineas
+                .col-auto
+                  figure
+                    img(src='@/assets/curso/tema2/lineVert.svg' alt='AvatarTop', style='width: 68px').m-auto
+              p.mb-0 Mantener esta condición de supervivencia por largo tiempo puede llegar a producir efectos sobre la salud mental lo que se considera un 
+                b(style='color: #008BFD;')  estado crítico de salud mental.
+              
+            p.mb-0 A continuación, se describen las diferentes reacciones que se pueden desencadenar durante una crisis, las cuáles dependiendo de su manifestación configuran trastornos ya sea de estrés agudo o de estrés postraumático.
+        
+        
+        .row.justify-content-center.fondo-img.pb-4(:style="{'background-image': `url(${require('@/assets/curso/tema2/fondo-row.png')})`}" style='background-position: left top')
+          .col-lg-12.px-5
+            .row.justify-content-center.mb-5
+              .col-10.col-lg-5.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/tema2/img3.png' alt='imagen ambiental', style='width: 500px').m-auto
+              .col-lg-7
+                .row.mb-4
+                  .col-auto
+                    .px-4.py-2(style='background-color: #008BFD; border-radius: 50px;')
+                      h4.text-white.mb-0 Reacciones físicas
+                p.mb-4 Son manifestaciones fisiológicas que se desencadenan como consecuencia de la activación del sistema de supervivencia o sistema nervioso parasimpático, el cual es el responsable de la segregación de hormonas como la adrenalina y el cortisol necesarias para atacar o huir en caso de peligro. Cuando estas hormonas permanecen activas por mucho tiempo, se produce un desgaste físico evidente.
+                .row.mb-4
+                  .col-lg-6
+                    ul.lista-ul
+                      li 
+                        i.fas.fa-check-circle(style="color: #008BFD;")
+                        p.mb-0 Fatiga
+                          
+                      li 
+                        i.fas.fa-check-circle(style="color: #008BFD;")
+                        p.mb-0 Cansancio
+                          
+                      li 
+                        i.fas.fa-check-circle(style="color: #008BFD;")
+                        p.mb-0 Incremento del ritmo cardiaco
+                          
+                      li 
+                        i.fas.fa-check-circle(style="color: #008BFD;")
+                        p.mb-0 Hiperventilación
+                          
+                      li 
+                        i.fas.fa-check-circle(style="color: #008BFD;")
+                        p.mb-0 Sudoración
+                          
+                  .col-lg-6
+                    ul.lista-ul
+                      li 
+                        i.fas.fa-check-circle(style="color: #008BFD;")
+                        p.mb-0 Alteraciones del apetito
+                          
+                      li 
+                        i.fas.fa-check-circle(style="color: #008BFD;")
+                        p.mb-0 Alteraciones del sueño
+                          
+                      li 
+                        i.fas.fa-check-circle(style="color: #008BFD;")
+                        p.mb-0 Temblor corporal
+                          
+                      li 
+                        i.fas.fa-check-circle(style="color: #008BFD;")
+                        p.mb-0 Sensación de opresión en el pecho y el estómago
+                          
+                      li 
+                        i.fas.fa-check-circle(style="color: #008BFD;")
+                        p.mb-0 Empeoramiento de condiciones crónicas: diabetes, hipertensión.
+                          
+
+    .row.justify-content-center.fondo-gradiente-verde.mb-5
+      .col-lg-12.px-md-5.pt-4
+        .row.justify-content-center.mb-4
+          .col-lg-4.mb-4-mb-lg-0
+            .row.mb-4
+              .col-auto
+                .px-4.py-2(style='background-color: #008BFD; border-radius: 50px;')
+                  h4.text-white.mb-0 Reacciones cognitivas
+            p.mb-0 Se refiere a las manifestaciones mentales que el miedo produce, por lo general provienen de la mente subconsciente, responsable de la reactividad. Durante la crisis pensar se hace difícil ya que hay una desconexión entre el cerebro responsable de la supervivencia y la mente consciente, lo que genera estas reacciones, que pueden ser más severas de acuerdo con el tiempo de activación que la persona experimente.
+            
+          .col-lg-8
+            SlyderF.mb-0(columnas="col-md-6 col-lg-4")
+              .tarjeta.color-primario.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema2/icon4.svg' alt='AvatarTop' style="width: 68px;").m-auto
+                p.text-center.mb-0 Confusión mental
+                  
+              .tarjeta.color-primario.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema2/icon4.svg' alt='AvatarTop' style="width: 68px;").m-auto
+                p.text-center.mb-0 Desorientación espacial
+                  
+              .tarjeta.color-primario.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema2/icon4.svg' alt='AvatarTop' style="width: 68px;").m-auto
+                p.text-center.mb-0 Pérdida de conciencia de la realidad
+                  
+              .tarjeta.color-primario.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema2/icon4.svg' alt='AvatarTop' style="width: 68px;").m-auto
+                p.text-center.mb-0 Dificultad para tomar decisiones
+                  
+              .tarjeta.color-primario.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema2/icon4.svg' alt='AvatarTop' style="width: 68px;").m-auto
+                p.text-center.mb-0 Duda frente a sus propias creencias
+                  
+              .tarjeta.color-primario.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema2/icon4.svg' alt='AvatarTop' style="width: 68px;").m-auto
+                p.text-center.mb-0 Dificultad para concentrarse
+                  
+              .tarjeta.color-primario.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema2/icon4.svg' alt='AvatarTop' style="width: 68px;").m-auto
+                p.text-center.mb-0 Pérdida de memoria
+                  
+              .tarjeta.color-primario.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src='@/assets/curso/tema2/icon4.svg' alt='AvatarTop' style="width: 68px;").m-auto
+                p.text-center.mb-0 Exageración y sobrevaloración de situaciones de poca importancia
+                  
+    .row.mb-4
+      .col-auto
+        .px-4.py-2(style='background-color: #008BFD; border-radius: 50px;')
+          h4.text-white.mb-0 Reacciones emocionales
+
+    .row.justify-content-center.mb-5
+      .col-auto
+        figure
+          img(src='@/assets/curso/tema2/line1.svg' alt='AvatarTop' style="width: 88px;").m-aut
+      .col
+        p.mb-0 Los seres humanos están dotados de emociones básicas necesarias para la adaptación al medio ambiente. Las reacciones emocionales son una combinación entre el miedo, la ira, la tristeza y el asco que producen.
+
+
+    .tarjeta--container.row.mb-5
+      .col-md.tarjeta.color-secundario.p-5
+        .row.justify-content-center.mb-4
+          .col-12
+            figure
+              img(src='@/assets/curso/tema2/img4.svg', alt='imagen ambiental', style='width: 333px').m-auto
+          
+        ul.lista-ul
+          li 
+            i.fas.fa-check-circle
+            p.mb-0.text-white Miedo incontrolado.
+              
+          li 
+            i.fas.fa-check-circle
+            p.mb-0.text-white Duda frente a sí mismo
+          li 
+            i.fas.fa-check-circle
+            p.mb-0.text-white Baja autoestima
+          li 
+            i.fas.fa-check-circle
+            p.mb-0.text-white Culpa
+
+          
+      .col-md.tarjeta.color-oscuro.p-5
+        .row.justify-content-center.mb-4
+          .col-12
+            figure
+              img(src='@/assets/curso/tema2/img5.svg', alt='imagen ambiental', style='width: 333px').m-auto
+          
+        ul.lista-ul
+          li 
+            i.fas.fa-check-circle
+            p.mb-0.text-white Rabia
+              
+          li 
+            i.fas.fa-check-circle
+            p.mb-0.text-white Irritabilidad
+          li 
+            i.fas.fa-check-circle
+            p.mb-0.text-white Sensación de desesperanza
+          li 
+            i.fas.fa-check-circle
+            p.mb-0.text-white Llanto incontenido
+          
+      .col-md.tarjeta.color-secundario.p-5
+        .row.justify-content-center.mb-4
+          .col-12
+            figure
+              img(src='@/assets/curso/tema2/img6.svg', alt='imagen ambiental', style='width: 333px').m-auto
+          
+        ul.lista-ul
+          li 
+            i.fas.fa-check-circle
+            p.mb-0.text-white Aislamiento 
+              
+          li 
+            i.fas.fa-check-circle
+            p.mb-0.text-white Dificultad para expresar emociones
+          li 
+            i.fas.fa-check-circle
+            p.mb-0.text-white Hipervigilancia y sobresalto
+          li 
+            i.fas.fa-check-circle
+            p.mb-0.text-white Incremento de conflictos con la familia
+          li 
+            i.fas.fa-check-circle
+            p.mb-0.text-white Llanto incontenido
+
+    .row.mb-4
+      .col-auto
+        .px-4.py-2(style='background-color: #008BFD; border-radius: 50px;')
+          h4.text-white.mb-0 Trastornos asociados al estado crítico en salud mental
+
+    p.mb-4 Es importante comprender que los trastornos asociados a un estado crítico por lo general no se manifiestan durante la crisis, sino de forma posterior a la vivencia, por esta razón se debe analizar el daño potencial producido con el evento traumático y la correlación con otros aspectos que pueden agravar el suceso. Por ejemplo, una persona es víctima de violencia sexual y este hecho se convierte en el evento traumático, sin embargo, el estrés agudo puede agravarse debido a la falta de apoyo de la familia, el juzgamiento de la pareja, entre otras circunstancias. Seguramente una persona que vive la misma situación tendrá una evolución distinta si cuenta con las redes de apoyo familiares y de pareja necesarias. Esto es relevante ya que en 
+      b(style='color: #008BFD;') la intervención no solamente se aborda la situación desencadenante, sino los hechos y condiciones agravantes de la misma que pueden desencadenar trastornos que perduran en el tiempo o que desaparecen.
+
+    .row.justify-content-center
+      .col-lg-12
+        ImagenInfograficaB.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema2/infografia2.svg', alt='', style='')
+              img(src='@/assets/curso/tema2/infografia3.svg', alt='imagen fografica', style='width: 512px;').m-auto
               
-          .tarjeta.color-acento-botones.p-4(x="9%" y="22%" numero="1" style='border-radius: 10px; background-color: #FFE8C8')
-            h5.mb-3.text-center Fase uno Exposición al evento crítico
-            p.mb-0.text-center Produce tensión y puede aparecer un estado de shock que protege a la víctima de una condición abrumadora. De forma inconsciente el cerebro se prepara para dar una respuesta efectiva, sacando los recursos de afrontamiento aprendidos para recuperar el equilibrio.
               
-          .tarjeta.color-acento-botones.p-4(x="28%" y="80%" numero="2" style='border-radius: 10px; background-color: #FFE8C8')
-            h5.mb-3.text-center Fase dos Respuesta desorganizada
-            p.mb-0.text-center Hay aumento de la tensión y las respuestas emocionales y cognitivas fallan para enfrentar la crisis de forma adecuada. Las respuestas  se tornan confusas y  provocan  disfunciones.
+          div(x="34%" y="32%" tooltip="Estrés agudo" numero="" )
+            //(:style="{'background-image': `url(${require('@/assets/curso/tema2/infografia1.svg')})`}" style='background-position: right top')
+            h4(style='color: #5BD3A9;') Estrés agudo
+            p.mb-4.text-white Toda situación de peligro activa reacciones que desencadenan estrés. Esta es una reacción natural con la que cuenta el organismo para sobrevivir, Jhon W Barnhill, en el Manual MSD (2020), define el trastorno por estrés agudo como un período breve de recuerdos molestos que se produce 4 semanas después de haber sido testigo o de haber experimentado un episodio traumático. 
+            p.mb-0.text-white Volviendo al ejemplo del abuso sexual, la víctima puede empezar a presentar recuerdos, imágenes mentales breves e intrusivas, sueños con su agresor, recapitula momentos del hecho abusivo, recciones disociativas tipo flashbakcs, en donde la persona siente como si estuviera viviendo el abuso sexual nuevamente, lo que genera una angustia intensa y la activación fisiológica y emocional que vivió en ese momento. La persona tendrá dificultad para pensar con claridad, difícilmente experimentará alegría, tendrá sobresaltos y vivirá hipervigilante cuando sale a la calle o se encuentra sola, ya que siente miedo de que el hecho se repita.
               
-          .tarjeta.color-acento-botones.p-4(x="47%" y="22%" numero="3" style='border-radius: 10px; background-color: #FFE8C8')
-            h5.mb-3.text-center Fase tres Explosión
-            p.mb-0.text-center Se pierde el control de las emociones, los pensamientos y los comportamientos tienden a ser contradictorios. Las reacciones pueden pasar de pasivas a agresivas durante semanas.
+          div(x="68%" y="32%" tooltip="Tipos de traumas" numero="")
+            h4(style='color: #5BD3A9;') Trastorno de estrés postraumático
+            p.mb-4.text-white Surge como una respuesta tardía o diferida a un evento estresante a la exposición con el evento estresante o a una situación breve o duradera de naturaleza excepcionalmente amenazante o catastrófica, que causaría por sí misma malestar generalizado a casi todo el mundo. (Clasificación Internacional de Enfermedades – CIE 10.)
+            p.mb-0.text-white Este trastorno se caracteriza por la reactivación de los síntomas y las reacciones emocionales, cognitivas y físicas, en momentos posteriores al evento, viviendo un proceso de reexperimentación constante, a través del recuerdo. La diferencia entre estos dos trastornos, agudo y postraumático radica en la duración de los síntomas y el tipo de trauma. Si los síntomas de reactivación del evento traumático persisten por más de cuatro semanas, y si el trauma es de tipo 2, se configura el TEPT.
               
-          .tarjeta.color-acento-botones.p-4(x="66%" y="77%" numero="4" style='border-radius: 10px; background-color: #FFE8C8')
-            h5.mb-3.text-center Fase cuatro Estabilización
-            p.mb-0.text-center Inicia la calma a medida que aparecen los recursos alternos. La persona es muy vulnerable en este momento y puede volver a la fase de explosión . Hay cierto nivel de conciencia de lo que ha sucedido, pero las reacciones ya no son tan extremas.
+          div(x="50%" y="88%" tooltip="Trastorno de estrés postraumático" numero="")
+            h4(style='color: #5BD3A9;') Tipos de traumas
+            p.mb-4.text-white 
+              b Un Trauma tipo 1: 
+              b-none surge como consecuencia del evento traumático casi de forma inmediata es susceptible de ser intervenido con la aplicación de los Primeros Auxilios Psicológicos, antes o durante las 72 horas siguientes y puede desencadenar Trastorno de estrés agudo. 
+            p.mb-0.text-white 
+              b El Trauma tipo 2: 
+              b-none es la cadena de eventos traumáticos en el tiempo, que prevalecen como consecuencia de situaciones de violencia, secuestro y abuso sistemático, Estos eventos son mucho más susceptibles de generar TEPT
               
-          .tarjeta.color-acento-botones.p-4(x="85%" y="22%" numero="5" style='border-radius: 10px; background-color: #FFE8C8')
-            h5.mb-3.text-center Fase cinco Adaptación
-            p.mb-0.text-center Comienza el proceso de control sobre las acciones, puede concentrarse en otras situaciones, además del evento vivido, orienta interés por el futuro, se reactiva la socialización y puede descubrir nuevos rumbos a partir de la experiencia vivida.
-              
-        figcaption 
-          p.mb-0 
-            b Nota. 
-            b-none Textos adaptados del Manual de Primeros Auxilios Psicológicos. Federación Internacional de sociedades de la Cruz Roja.
-            
 
 
 
 
 
 
-    separador
-    #t_2_3.titulo-segundo.color-acento-contenido
-      .h2 2.3 Trastornos y reacciones frente a una crisis
+
 
     separador
     #t_2_4.titulo-segundo.color-acento-contenido
