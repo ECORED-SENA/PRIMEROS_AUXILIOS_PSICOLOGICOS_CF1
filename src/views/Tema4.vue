@@ -25,7 +25,7 @@
 
 
 
-    #t_4_1.titulo-segundo
+    #t_4_1.titulo-segundo.color-acento-contenido
       .h2 4.1 Aspectos culturales
     
 
@@ -41,7 +41,7 @@
       .col-lg-4.mb-4.mb-lg-0
         p.mb-4 A continuación, se describen aspectos y cuestionamientos para tener en cuenta para realizar una intervención respetuosa desde la mirada cultural, durante la aplicación de los PAP: 
         .row.justify-content-center
-          .col-10.col-lg-12
+          .col-6.col-lg-12
             figure
               img(src="@/assets/curso/tema4/img2.svg", alt="alt", style='width: 400px').m-auto
       .col-lg-8
@@ -55,24 +55,162 @@
           
 
 
+    .row.justify-content-center.mb-4
+      .col-lg-4.mb-4-mb-lg-0
+        p.mb-0 Es posible que se tenga que trabajar con personas cuyas vidas y experiencias tengan muy poco que ver con las suyas. Como persona que apoya es importante ser consciente de sus propios antecedentes y creencias culturales, para dejar al margen sus propios prejuicios. Ofrecer ayuda de la forma más adecuada y cómoda para la gente a la que se va a apoyar (Organización Mundial de la Salud. War Trauma Foundation. Visión Mundial Internacional, 2012).
+            
+      .col-10.col-lg-4.mb-4.mb-lg-0.pe-lg-0
+        figure(data-aos='zoom-in')
+          img(src='@/assets/curso/tema4/img3.svg' alt='imagen ambiental', style='width: ').m-auto
+            
+      .col-lg-4.mb-4.mb-lg-0.ps-lg-0
+        .bg--green.p-4.mb-4
+          .row.mb-4.lineas
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema1/equis2.svg' alt='AvatarTop', style='width: 55px').m-auto
+          p.mb-0 Cabe resaltar que tener en cuenta estos aspectos permitirá que las personas que aplican los PAP, puedan realizar ajustes y adaptaciones a sus protocolos y guía de manejo, buscando prestar la ayuda necesaria y pertinente, sin importar la cultura y sin generar malestar adicional a la víctima.
+              
+
+
     separador
-    #t_4_2.titulo-segundo
+    #t_4_2.titulo-segundo.color-acento-contenido
       .h2 4.2 Aspectos de seguridad y dignidad
     
+      
+      
+    .row.justify-content-center.mb-5
+      .col-lg-7.mb-4.mb-lg-0.onTop
+        p.mb-4 El respeto por la seguridad cuando se aplican los primeros auxilios psicológicos tiene que ver con la garantía de que la persona no sufra más riesgos adicionales que puedan poner en peligro su vida y bienestar.
+        .bg--green.neg--right2.p-3.mb-4
+          p.mb-0 Siempre se busca reducir el riesgo de intervenciones negativas evaluando el contexto y la situación en la cual se encuentran las personas afectadas, sea en un caso por emergencia colectiva o una situación individual. En este sentido el primer escenario de garantía de seguridad es alejar a las personas del ambiente de tensión o del desencadenante de la crisis; este proceso de retirada requiere de empatía y buen trato, para que la víctima o persona afectada se sienta tranquila de recibir la ayuda. 
+            
+        .row.justify-content-center.align-items-center
+          .col-auto.lineas
+            figure
+              img(src='@/assets/curso/tema4/equis.svg' alt='AvatarTop', style='width: 85px').m-auto
+          .col
+            p.mb-0 Si es posible se debe obtener toda la información del evento ocurrido, lo que permitirá orientar y ayudar a disminuir la ansiedad de la persona afectada, transmitiéndoles pautas claras para ayudarles a satisfacer sus necesidades vitales. Para comprenderlo mejor se describe el siguiente caso:
+        
+      .col-10.col-lg-5
+        figure
+          img(src='@/assets/curso/tema4/img4.jpg' alt='imagen ambiental', style='width: 505px').m-auto
 
 
 
+    .p-4.mb-5.pb-0(style='background-color: #F2E6DD; border-top-left-radius: 20px; border-top-right-radius: 20px;')
+      PasosB.color-acento-botones
+        .row(titulo="")
+          .col-md-12.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/tema4/pasos1.svg', alt='Texto que describa la imagen')
+              
+        .row(titulo="")
+          .col-md-12.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/tema4/pasos2.svg', alt='Texto que describa la imagen')
+              
+        .row(titulo="")
+          .col-md-12.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/tema4/pasos3.svg', alt='Texto que describa la imagen')
+              
+        .row(titulo="")
+          .col-md-12.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/tema4/pasos4.svg', alt='Texto que describa la imagen')
+              
+        .row(titulo="")
+          .col-md-12.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/tema4/pasos5.svg', alt='Texto que describa la imagen')
+              
+        .row(titulo="")
+          .col-md-12.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/tema4/pasos6.svg', alt='Texto que describa la imagen')
+              
+        .row(titulo="")
+          .col-md-12.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/tema4/pasos7.svg', alt='Texto que describa la imagen')
+              
+        .row(titulo="")
+          .col-md-12.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/tema4/pasos8.svg', alt='Texto que describa la imagen')
+              
+        .row(titulo="")
+          .col-md-12.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/tema4/pasos9.svg', alt='Texto que describa la imagen')
+              
+        .row(titulo="")
+          .col-md-12.mb-4.mb-md-0
+            figure
+              img(src='@/assets/curso/tema4/pasos10.svg', alt='Texto que describa la imagen')
+              
 
-
-
-
-
-
+    .row.justify-content-center
+      .col-lg-3.mb-4
+        .p-4.pb-5(style='background-color: #f6f6f6')
+          figure.mb-4
+            img(src='@/assets/curso/tema4/icon1.svg', alt='icono que acompaña', style='width: 127px;').m-auto
+          p.text-center.mb-4.pb-5 Frente a lo anterior se observa que la víctima fue protegida y se le brindó seguridad antes y durante la aplicación de los PAP. 
+              
+      .col-lg-3.mb-4
+        .p-4(style='background-color: #f6f6f6')
+          figure.mb-4
+            img(src='@/assets/curso/tema4/icon2.svg', alt='icono que acompaña', style='width: 127px;').m-auto
+          p.text-center.mb-4.pb-2 Cabe resaltar que el respeto por la dignidad tiene que ver con el buen trato y la claridad para actuar en el marco de las condiciones del evento traumático que ha vivido la persona. 
+              
+      .col-lg-3.mb-4
+        .p-4(style='background-color: #f6f6f6')
+          figure.mb-4
+            img(src='@/assets/curso/tema4/icon3.svg', alt='icono que acompaña', style='width: 127px;').m-auto
+          p.text-center.mb-4.pb-2 En el caso ilustrado se analizó el contexto de la víctima, la condición en la que se encontraba, se cubrió su cuerpo y se evitó que fuera expuesta a miradas de los curiosos en la calle. 
+              
+      .col-lg-3.mb-4
+        .p-4(style='background-color: #f6f6f6')
+          figure.mb-4
+            img(src='@/assets/curso/tema4/icon4.svg', alt='icono que acompaña', style='width: 127px;').m-auto
+          p.text-center.mb-2 El respeto por la dignidad está basado en la escucha activa, el lenguaje respetuoso, la cercanía que genera confianza, pero que no invade el espacio personal, la distancia corporal y la tranquila se le pueda brindar al otro.
+              
 
 
     separador
-    #t_4_3.titulo-segundo
+    #t_4_3.titulo-segundo.color-acento-contenido
       .h2 4.3 Aspectos de derechos
+
+
+    .row.justify-content-center.mb-4
+      .col-lg-4.mb-4.mb-lg-0.pe-lg-0
+        .bg--green.p-4.mb-4
+          .row.mb-4.lineas
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema1/equis2.svg' alt='AvatarTop', style='width: 55px').m-auto
+          p.mb-0 Cuidar y promover los DD. HH de todas las personas afectadas asegurando la equidad y la no discriminación, es el objetivo durante la aplicación de los PAP.
+        
+      .col-10.col-lg-4.mb-4.mb-lg-0.ps-lg-0
+        figure(data-aos='zoom-in')
+          img(src='@/assets/curso/tema4/img5.svg' alt='imagen ambiental', style='width: ').m-auto
+            
+      .col-lg-4
+        p.mb-0 Este aspecto involucra la garantiza de un trato equitativo, justo, libre de cualquier discriminación por raza, género, edad, condición social, color de piel. Cualquier ser humano debe ser atendido, cuidado y ser bien tratado durante la aplicación de los PAP. Esta perspectiva de derechos también incluye el no subestimar el dolor del otro y adecuar las guías y procedimientos a la necesidad individual y/o colectiva de quien requiera la ayuda.
+            
+              
+
+
+
+
+
+
+
+
+
+
+
 
 </template>
 
