@@ -9,15 +9,67 @@
       h1 Aspectos claves para la intervención
     
 
+    .row.justify-content-center.mb-5
+      .col-lg-12
+        .bloque-texto-a.color-primario.p-4.p-md-5.mb-4
+          .row.m-0.align-items-center.justify-content-center
+            .col-lg-3.mb-4.mb-lg-0
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema4/img1.svg', alt='imagen ambiental', style='width: 230px').m-auto
+            .col-lg-9
+              .bloque-texto-a__texto.p-4
+                p.mb-0 Los PAP están basados en la noción de la 
+                  b(style="color: #008BFD") “ayuda responsable”
+                  b-none . Para entender de qué se trata esto es necesario abordar la condición de vulnerabilidad de una persona en crisis, que pierde su sentido de realidad, está temerosa y su capacidad de decidir está afectada. En este escenario es muy fácil configurar una relación de poder dominante de quien se encuentra en condiciones de salud mental adecuadas y quien no. Por esta razón y para evitar que este tipo de situaciones se configuren y se revictimice a la persona que requiere ayuda, los primeros auxilios psicológicos deben basarse en los siguientes aspectos:
+                
+
 
 
     #t_4_1.titulo-segundo
       .h2 4.1 Aspectos culturales
     
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-auto.lineas
+        figure
+          img(src="@/assets/curso/tema2/line2.svg", alt="alt", style='width: 84px').m-auto
+      .col
+        p.mb-0 La cultura marca la ruta de relación con las personas y establece el tipo de comunicación a seguir. Cuando se aplican los PAP existe la posibilidad de encontrarse con personas totalmente opuestas en pensamiento y forma de ver la vida. Por ejemplo, personas que por convicción no hablan de sus emociones con desconocidos, o que únicamente permiten acercamiento de personas del mismo género, que no permiten acercamiento corporal o que se sienten vulneradas si les hacen preguntas de su vida personal.
+      
+
+    .row.justify-content-center.mb-5
+      .col-lg-4.mb-4.mb-lg-0
+        p.mb-4 A continuación, se describen aspectos y cuestionamientos para tener en cuenta para realizar una intervención respetuosa desde la mirada cultural, durante la aplicación de los PAP: 
+        .row.justify-content-center
+          .col-10.col-lg-12
+            figure
+              img(src="@/assets/curso/tema4/img2.svg", alt="alt", style='width: 400px').m-auto
+      .col-lg-8
+        LineaTiempoD.color-primario
+          p.mb-0(numero="1" titulo="Idioma") El lenguaje es el primer punto de contacto con las personas y éste puede ser distinto al de la persona que aplica los PAP, por tanto, hay que saber establecer un proceso de comunicación que permita acercamiento. Antes de abordar a una persona que pertenece a otra cultura, pregúntese lo siguiente: ¿Cuál es la forma de saludar y acercarse a la persona?, ¿qué idioma hablarán en casa de esta persona? se debe tutear? ¿Qué tan afectivo debe ser el lenguaje que utilizo?
+          p.mb-0(numero="2" titulo="Forma de vestir")  La vestimenta y la exposición o cubrimiento del cuerpo, cumplen un papel fundamental para lograr abordar a las personas que tienen creencias específicas en este tema, es importante observar, indagar y prepararse para no generar rechazo. Preguntas cómo: ¿la persona necesitará prendas de vestir determinadas para sentirse tranquila, ¿debo vestirme de determinada forma para no generar rechazo con la o las personas que requieren los PAP?
+          p.mb-0(numero="3" titulo="Género, edad y relaciones de poder") Dependiendo del tipo de cultura la edad y el género marcan formas de relación; por ejemplo, mujeres a las cuáles solo las pueden auxiliar mujeres, o personas mayores que no aceptan ayuda de personas de menor edad. En este mismo sentido las relaciones de poder marcan también el acercamiento, por tanto, es necesario cuestionarse sobre los siguiente:
+          p.mb-0(numero="4" titulo="¿Quién autoriza el acercamiento a la comunidad?") ¿Quién es la persona cabeza de familia o de la comunidad? Es necesario que, si la persona afectada es mujer, haya presencia de otra mujer para acompañar la aplicación de los PAP.
+          p.mb-0(numero="5" titulo="Contacto y conducta") Diversas culturas no ven como algo positivo el acercamiento físico, por tanto, preguntas cómo ¿Cuáles son las costumbres para abordar a la víctima? ¿permitirán un lenguaje afectivo? ¿cómo manejan el tema del acercamiento personal?, serían de gran ayuda frente a la intervención.
+          p.mb-0(numero="6" titulo="Creencias y religión") Este es tal vez uno de los puntos álgidos a la hora de acercarse a la persona afectada. Algunas religiones no permiten que se preste ayuda, otras no permiten que se hable de la crisis o el dolor. Cómo cuestionamientos se sugieren: ¿qué prácticas son importantes para esta persona? cuál es su religión y qué restricciones podría tener para prestar el apoyo?
+          
+
+
     separador
     #t_4_2.titulo-segundo
       .h2 4.2 Aspectos de seguridad y dignidad
     
+
+
+
+
+
+
+
+
+
+
+
     separador
     #t_4_3.titulo-segundo
       .h2 4.3 Aspectos de derechos

@@ -448,17 +448,17 @@
               
           div(x="34%" y="32%" tooltip="Estrés agudo" numero="" )
             //(:style="{'background-image': `url(${require('@/assets/curso/tema2/infografia1.svg')})`}" style='background-position: right top')
-            h4(style='color: #5BD3A9;') Estrés agudo
+            h4(style='color: #5BD3A9 !important;') Estrés agudo
             p.mb-4.text-white Toda situación de peligro activa reacciones que desencadenan estrés. Esta es una reacción natural con la que cuenta el organismo para sobrevivir, Jhon W Barnhill, en el Manual MSD (2020), define el trastorno por estrés agudo como un período breve de recuerdos molestos que se produce 4 semanas después de haber sido testigo o de haber experimentado un episodio traumático. 
             p.mb-0.text-white Volviendo al ejemplo del abuso sexual, la víctima puede empezar a presentar recuerdos, imágenes mentales breves e intrusivas, sueños con su agresor, recapitula momentos del hecho abusivo, recciones disociativas tipo flashbakcs, en donde la persona siente como si estuviera viviendo el abuso sexual nuevamente, lo que genera una angustia intensa y la activación fisiológica y emocional que vivió en ese momento. La persona tendrá dificultad para pensar con claridad, difícilmente experimentará alegría, tendrá sobresaltos y vivirá hipervigilante cuando sale a la calle o se encuentra sola, ya que siente miedo de que el hecho se repita.
               
           div(x="68%" y="32%" tooltip="Tipos de traumas" numero="")
-            h4(style='color: #5BD3A9;') Trastorno de estrés postraumático
+            h4(style='color: #5BD3A9 !important;') Trastorno de estrés postraumático
             p.mb-4.text-white Surge como una respuesta tardía o diferida a un evento estresante a la exposición con el evento estresante o a una situación breve o duradera de naturaleza excepcionalmente amenazante o catastrófica, que causaría por sí misma malestar generalizado a casi todo el mundo. (Clasificación Internacional de Enfermedades – CIE 10.)
             p.mb-0.text-white Este trastorno se caracteriza por la reactivación de los síntomas y las reacciones emocionales, cognitivas y físicas, en momentos posteriores al evento, viviendo un proceso de reexperimentación constante, a través del recuerdo. La diferencia entre estos dos trastornos, agudo y postraumático radica en la duración de los síntomas y el tipo de trauma. Si los síntomas de reactivación del evento traumático persisten por más de cuatro semanas, y si el trauma es de tipo 2, se configura el TEPT.
               
           div(x="50%" y="88%" tooltip="Trastorno de estrés postraumático" numero="")
-            h4(style='color: #5BD3A9;') Tipos de traumas
+            h4(style='color: #5BD3A9 !important;') Tipos de traumas
             p.mb-4.text-white 
               b Un Trauma tipo 1: 
               b-none surge como consecuencia del evento traumático casi de forma inmediata es susceptible de ser intervenido con la aplicación de los Primeros Auxilios Psicológicos, antes o durante las 72 horas siguientes y puede desencadenar Trastorno de estrés agudo. 
@@ -469,14 +469,106 @@
 
 
 
-
-
-
-
-
     separador
     #t_2_4.titulo-segundo.color-acento-contenido
       .h2 2.4 Muerte y duelo
+
+
+    .row.justify-content-center.align-items-center
+      .col-lg-7.mb-4.mb-lg-0
+        p.mb-4 Uno de los eventos de mayor efecto traumático en la sociedad es la muerte intempestiva de personas amadas, derivada de hechos violentos, accidentes o desastres. 
+        .row.justify-content-center.align-items-center.mb-0
+          .col-auto.lineas
+            figure
+              img(src="@/assets/curso/tema2/line2.svg", alt="alt", style='width: 84px').m-auto
+          .col-lg.onTop
+            .bg--green.neg--right.p-3
+              p.mb-0 La muerte en la cultura occidental es sinónimo de gran dolor y tristeza para las personas, lo que ha generado resistencia para hablar de ella. Las personas consideran difícil aceptar la muerte y esto hace que cuando se presenta de forma cercana, produzca una reacción crítica y en ocasiones traumática.
+      .col-10.col-lg-5
+        figure
+          img(src='@/assets/curso/tema2/img7.jpg', alt='imagen ambiental', style='width: 512px;').m-auto
+              
+
+    .row.justify-content-center.fondo-gradiente-inverso
+      .col-lg-12.px-md-5
+        .row.mb-4
+          .col-auto
+            .px-4.py-2(style='background-color: #008BFD; border-radius: 50px;')
+              h4.text-white.mb-0 Duelo
+              
+        .row.mb-5
+          p.mb-0 A continuación, se explicará qué es el duelo y cuáles son sus etapas.
+          
+        .row.mb-5
+          figure
+            .video
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            
+        .row.mb-4
+          .col-auto
+            .px-4.py-2(style='background-color: #008BFD; border-radius: 50px;')
+              h4.text-white.mb-0 Manejo del duelo
+              
+        .row.mb-5
+          p.mb-0 El duelo se desarrolla de forma espontánea y cada persona tendrá manifestaciones distintas, más o menos agravadas de acuerdo con las particularidades de la pérdida y de la persona que vive la situación. Para promover un duelo sano se recomienda:
+            
+        .row.mb-5
+          .col-lg-12
+            SlyderE(indicadores="centro" style='background-color: #ffff')
+              .row.justify-content-center.p-4
+                .col-md-7.mb-4.mb-md-0
+                  h4.mb-4 Trabajar en sí mismo
+                  p.mb-0 Es importante tener conciencia del autocuidado, ya que a pesar del dolor y lo difícil que puede ser la situación se debe comer adecuadamente, tratar de dormir, no descuidarse físicamente, caminar o hacer ejercicio físico, evitar consumir alcohol o sustancias psicoactivas, no auto formularse para poder dormir o descansar, acudir a profesionales de la salud para consultar sobre síntomas o afecciones físicas o emocionales frecuentes.
+                    
+                .col-10.col-md-5
+                  figure
+                    img(src='@/assets/curso/tema2/img8.jpg', alt='imagen ambiental', style='width: 500px;').m-auto
+                    
+              .row.justify-content-center.p-4
+                .col-md-7.mb-4.mb-md-0
+                  h4.mb-4 Entender las emociones propias
+                  p.mb-4 Durante el duelo las emociones son cambiantes y desafiantes, es importante hablar y exteriorizar para no generar tensiones, buscar espacios de soledad para comprender por qué se siente lo que se siente, recibir llamadas y visitas cuando se sienta la persona realmente preparada, consultar con profesionales de la salud mental si considera que la situación es más fuerte que sus capacidades para manejar el dolor, trabajar en el reconocimiento de su vida sin la persona que ha perdido y entender que la tristeza y el dolor son normales.
+                  p.mb-0 Sin embargo, el sufrimiento no lo es, ya que se genera como refuerzo de los pensamientos negativos asociados a la muerte o la pérdida,  por ende hay que trabajar en  hacer conciencia y evitar estos pensamientos.
+                    
+                .col-10.col-md-5
+                  figure
+                    img(src='@/assets/curso/tema2/img9.jpg', alt='imagen ambiental', style='width: 500px;').m-auto
+                    
+              .row.justify-content-center.p-4
+                .col-md-7.mb-4.mb-md-0
+                  h4.mb-4 Cuidar los pensamientos
+                  p.mb-0 Durante el duelo los recuerdos se avivan y pueden ayudar a super la tensión o pueden aumentar el dolor, por tanto, es mejor evitar contaminar la mente y no consumirse en la memoria que se despierta visitando ciertos lugares, viendo sus pertenencias, sus fotos; esto solo aumentará el malestar. Durante este periodo es mejor evitar la exigencia cognitiva ya que la atención y la concentración se ven afectadas.
+                    
+                .col-10.col-md-5
+                  figure
+                    img(src='@/assets/curso/tema2/img10.jpg', alt='imagen ambiental', style='width: 500px;').m-auto
+                    
+              .row.justify-content-center.p-4
+                .col-md-7.mb-4.mb-md-0
+                  h4.mb-4 Cultivar la espiritualidad
+                  p.mb-0 Esto dependerá de las creencias de cada persona, pero es recomendable buscar rituales que permitan sentir que se despide de la persona y cierra un ciclo. Esto puede hacerse buscando espacios que produzcan paz, escribiendo una carta de despedida, exaltando la vida de la persona que se ha ido, a través de un reconocimiento público o una expresión artística.
+                    
+                .col-10.col-md-5
+                  figure
+                    img(src='@/assets/curso/tema2/img11.jpg', alt='imagen ambiental', style='width: 500px;').m-auto
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </template>
