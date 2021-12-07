@@ -49,7 +49,7 @@
           .col-lg-12.px-5
             .row.justify-content-center
               .col-lg-7.mb-4.mb-lg-0
-                p.mb-4 La OMS establece que los Determinantes Sociales en Salud son factores que están relacionados con los grandes problemas: la pobreza, la exclusión, la guerra, entre otros. Son situaciones que van más allá de las posibilidades de transformación individual o familiar y en este caso el estado entra como garante de los derechos en salud mental, generando acciones protectoras para mitigar los riesgos y afectaciones , ver figura 1.
+                p.mb-4 La OMS establece que los Determinantes Sociales en Salud son factores que están relacionados con los grandes problemas: la pobreza, la exclusión, la guerra, entre otros. Son situaciones que van más allá de las posibilidades de transformación individual o familiar y en este caso el estado entra como garante de los derechos en salud mental, generando acciones protectoras para mitigar los riesgos y afectaciones, ver figura 1.
                 p.mb-5 #[strong Determinantes sociales en Salud]
                   
                 AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azulita")
@@ -61,7 +61,8 @@
                       p.mb-0 En el caso de la violencia cada hora en Colombia 3 mujeres reportan ser víctimas de violencia, 8 de cada 10 casos son en su propio hogar. Estas condiciones se consideran factores de riesgo en salud mental y pueden llegar a generar un problema o trastorno mental a lo largo de la vida.
                   .row.justify-content-end(titulo="Edad")
                     .col-md-11
-                      p.mb-0 Con respecto a la edad, se han identificado momentos de riesgo en salud mental en la vida de las personas, debido fundamentalmente a cambios en el ciclo vital.
+                      p.mb-4 Con respecto a la edad, se han identificado momentos de riesgo en salud mental en la vida de las personas, debido fundamentalmente a cambios en el ciclo vital.
+                      p.mb-0 La adolescencia, la edad media y la vejez se han considerado momentos complejos por los cambios asociados a los mismos, aunque en el caso de los adultos mayores existen además situaciones como la exclusión social, la falta de oportunidades y el deterioro mental que generan un impacto mayor.
                   .row.justify-content-end(titulo="Violencia social y guerra")
                     .col-md-11
                       p.mb-4 Colombia por ejemplo ha vivido más de 5 décadas en guerra, en donde el conflicto armado ha dejado secuelas en la salud mental no solo de quiénes han estado directamente vinculados a hechos de violencia directa, sino en general de toda la población.
@@ -105,56 +106,56 @@
           .col-lg-3.mb-4.mb-lg-0
             h4.mb-0.text-center Condiciones individuales que afectan la salud mental
           .col-lg-9
-            SlyderF.mb-0(columnas="col-lg-6 col-xl-3")
-              .tarjeta-avatar
+            SlyderF.mb-0(columnas="col-lg-6 col-xl-4")
+              .tarjeta-avatar(style="width: 190px")
                 img(src='@/assets/curso/tema1/icon1.svg' alt='AvatarTop')
                 .tarjeta.color-blanco
                   .p-4.pb-5
                     p.text-center.mb-0 Baja estima
                   
-              .tarjeta-avatar
+              .tarjeta-avatar(style="width: 190px")
                 img(src='@/assets/curso/tema1/icon2.svg' alt='AvatarTop')
                 .tarjeta.color-blanco
                   .p-4
                     p.text-center.mb-0 Pensamientos negativos
                   
-              .tarjeta-avatar
+              .tarjeta-avatar(style="width: 190px")
                 img(src='@/assets/curso/tema1/icon3.svg' alt='AvatarTop')
                 .tarjeta.color-blanco
                   .p-4
                     p.text-center.mb-0 Condiciones hereditarias
                   
-              .tarjeta-avatar
+              .tarjeta-avatar(style="width: 190px")
                 img(src='@/assets/curso/tema1/icon4.svg' alt='AvatarTop')
                 .tarjeta.color-blanco
                   .p-4
                     p.text-center.mb-0 Baja tolerancia a la frustración
                   
-              .tarjeta-avatar
+              .tarjeta-avatar(style="width: 190px")
                 img(src='@/assets/curso/tema1/icon5.svg' alt='AvatarTop')
                 .tarjeta.color-blanco
                   .p-4
                     p.text-center.mb-0 Habilidades sociales escasas
                   
-              .tarjeta-avatar
+              .tarjeta-avatar(style="width: 190px")
                 img(src='@/assets/curso/tema1/icon6.svg' alt='AvatarTop')
                 .tarjeta.color-blanco
                   .p-4
                     p.text-center.mb-0 Escasas redes de apoyo
                   
-              .tarjeta-avatar
+              .tarjeta-avatar(style="width: 190px")
                 img(src='@/assets/curso/tema1/icon7.svg' alt='AvatarTop')
                 .tarjeta.color-blanco
                   .p-4.pb-5
                     p.text-center.mb-0 Soledad
                   
-              .tarjeta-avatar
+              .tarjeta-avatar(style="width: 190px")
                 img(src='@/assets/curso/tema1/icon8.svg' alt='AvatarTop')
                 .tarjeta.color-blanco
                   .p-4.pb-5
                     p.text-center.mb-0 Personalidad
                   
-              .tarjeta-avatar
+              .tarjeta-avatar(style="width: 190px")
                 img(src='@/assets/curso/tema1/icon9.svg' alt='AvatarTop')
                 .tarjeta.color-blanco
                   .p-4
@@ -326,9 +327,9 @@
               .col-auto
                 figure
                   img(src='@/assets/curso/tema1/lines-vertical.svg' alt='AvatarTop', style='width: 50px').m-auto
-            p.mb-4 Se dice que todas las personas a lo largo de la vida pueden llegar o llegarán sufrir algún tipo de trastorno mental común, lo que significa que la prevalencia en la aparición de estos síntomas es bastante alta y por tanto se debe trabajar en la prevención de los diferentes factores de riesgo que pueden desencadenarla. 
+            p.mb-4 Se dice que todas las personas a lo largo de la vida pueden llegar o llegarán a sufrir algún tipo de trastorno mental común, lo que significa que la prevalencia en la aparición de estos síntomas es bastante alta y por tanto se debe trabajar en la prevención de los diferentes factores de riesgo que pueden desencadenarla. 
             p.mb-0 Por lo general los hábitos influyen de manera importante en la aparición o no de estos trastornos. 
-              b(style='color: #008BFD;') Es así como la ingesta de licor o cualquier otro tipo de sustancias psicoactiva, la vida sedentaria, la despreocupación por aprender a manejar y gestionar las emociones y los conflictos de forma positiva, la falta de un proyecto de vida que entregue propósito de vida,
+              b(style='color: #008BFD;') Es así como la ingesta de licor o cualquier otro tipo de sustancias psicoactiva, la vida sedentaria, la despreocupación por aprender a manejar y gestionar las emociones y los conflictos de forma positiva, la falta de un proyecto de vida que entregue propósito de vida, 
               b-none son algunas de las causas que pueden desencadenar la aparición de la enfermedad en cualquier momento del ciclo vital.
 
 
@@ -435,7 +436,7 @@
     #4.row.justify-content-between.mb-5
       .col-auto
         .px-4.py-2(style='background-color: #008BFD; border-radius: 50px;')
-          h4.text-white.mb-0 Sintomas
+          h4.text-white.mb-0 Síntomas
       .col-auto
         figure(@click="goToElement('anclas')" @mouseover="mostrarIndicador = false")
           img(src='@/assets/curso/tema1/up.svg', alt='icon', style='width: 33px').m-auto
@@ -453,7 +454,7 @@
                 p.mb-4 Los síntomas se pueden presentar de forma crónica o en episodios específicos y la enfermedad varía de acuerdo a la levedad o severidad de los síntomas. En la siguiente tabla se pueden apreciar cada uno de estos:  
                 .row
                   .col-auto
-                    a.anexo.mb-0(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    a.anexo.mb-0(:href="obtenerLink('/downloads/trastornos_mentales_comunes.pdf')" target="_blank")
                       .anexo__icono
                         img(src="@/assets/template/icono-pdf.svg")
                       .anexo__texto
@@ -487,8 +488,9 @@
             .col-auto
               figure
                 img(src='@/assets/curso/tema1/equis2.svg' alt='AvatarTop', style='width: 55px').m-auto
-          p.mb-0 A diferencia del problema mental, el trastorno viene acompañado de síntomas más severos que generan disfuncionalidad evidente. Por ejemplo, 
-            b(style='color: #008BFD;') en el caso de la depresión, existe una diferencia con los estados de tristeza, ya que esta enfermedad se manifiesta adicionalmente con pensamientos oscuros frente a la vida, desmotivación, dificultad para salir de la cama, llanto incontenido y la tristeza se vive como una emoción de dolor, más no genera distorsión cognitiva aparente. 
+          p.mb-0 De acuerdo con lo planteado por la OPS, (Cohen,1999), 
+            b(style='color: #008BFD;') la crisis es un periodo crucial o momento decisivo de la vida de una persona, que tiene consecuencias físicas y emocionales. 
+            b-none Es decir, una crisis es un periodo limitado de desequilibrio psicológico precipitado por un cambio súbito o significativo en la situación vital del individuo.
             
 
 

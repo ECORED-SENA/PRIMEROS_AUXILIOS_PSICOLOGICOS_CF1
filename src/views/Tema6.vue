@@ -72,7 +72,7 @@
                 figure
                   img(src='@/assets/curso/tema6/img1.png' alt='imagen ambiental', style='width: 505px').m-auto
               .col-lg-7
-                h4.mb-4 Enfoque intercultural y diferencial 
+                h4.mb-4  Aspectos para tener en cuenta 
                 ul.lista-ul
                   li 
                     i.fas.fa-check-circle(style="color: #008BFD")
@@ -105,11 +105,19 @@
         .row
           h4.text-center.mb-4 A MODO DE RESUMEN
             
-          figure
+          figure.mb-4
             img(src='@/assets/curso/tema6/img2.svg' alt='imagen ambiental', style='').m-auto
 
 
-
+    .row
+      .col-auto
+        a.anexo.mb-4(:href="obtenerLink('/downloads/salud-mental.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p.m-0 
+              b Anexo. 
+              b-none Salud_mental
 
 
 

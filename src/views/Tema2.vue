@@ -42,36 +42,37 @@
           b-none Las crisis que se han identificado durante el desarrollo son: 
 
 
-    .row.justify-content-center.mb-4
-      ImagenInfografica.color-acento-botones.mb-5
-        template(v-slot:imagen)
-          figure
-            img(src='@/assets/curso/tema2/infografia1.svg', alt='', style='')
-            
-          
-        .tarjeta.color-acento-botones.p-3(x="5%" y="60%" numero="1" style='border-radius: 10px; background-color: #FFE8C8')
-          h5.mb-3.text-center Crisis del nacimiento a la infancia
-          p.mb-0.text-center Se vive debido al paso de la protección uterina al medio ambiente, que se percibe como una situación hostil para el bebe, que requiere adaptación.
-            
-        .tarjeta.color-acento-botones.p-3(x="26%" y="60%" numero="2" style='border-radius: 10px; background-color: #FFE8C8')
-          h5.mb-3.text-center Crisis de pubertad
-          p.mb-0.text-center Los cambios en la maduración del sistema endocrino genera un impacto en el cuerpo, la mente, las emociones y por ende en la conducta que es muy evidente en los adolescentes. Algunos presentan crisis profundas en su identidad y es un periodo de riesgo para la salud mental.
-            
-        .tarjeta.color-acento-botones.p-3(x="47%" y="60%" numero="3" style='border-radius: 10px; background-color: #FFE8C8')
-          h5.mb-3.text-center Crisis de la primera juventud
-          p.mb-0.text-center Es un periodo largo de vida que va desde los 20 hasta los 40 años. En esta etapa se consolida el proyecto de vida, transformaciones en lo académico, laboral y familiar, es un periodo de acción, cambio y ajuste permanente.
-            
-        .tarjeta.color-acento-botones.p-3(x="67%" y="60%" numero="4" style='border-radius: 10px; background-color: #FFE8C8')
-          h5.mb-3.text-center Crisis de la edad media
-          p.mb-0.text-center Se configura en la entrada de los 45 a 65 años, en donde el miedo al envejecimiento, la partida de los hijos y los cambios de vida laboral generan angustia y confusión. La entrada de la menopausia y la andropausia impacta a nivel emocional y psicológico.
-            
-        .tarjeta.color-acento-botones.p-3(x="87%" y="60%" numero="5" style='border-radius: 10px; background-color: #FFE8C8')
-          h5.mb-3.text-center Crisis de la tercera edad
-          p.mb-0.text-center A partir de los 65 años hasta el final de la vida se viven las manifestaciones más claras del envejecimiento físico y cognitivo, lo que impacta la vida de las personas de acuerdo con el desgaste propio de la edad y la exclusión social que muchos adultos mayores viven.
-          
-
+        
     .row.justify-content-center.fondo-completo(:style="{'background-image': `url(${require('@/assets/curso/tema1/fondo2.png')})`}" style='background-position: center bottom')
       .col-lg-12.px-5
+            
+        .row.justify-content-center.mb-4
+          ImagenInfografica.color-acento-botones.mb-5
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/tema2/infografia1.svg', alt='', style='')
+                
+              
+            .tarjeta.color-acento-botones.p-3(x="5%" y="60%" numero="1" style='border-radius: 10px; background-color: #FFE8C8')
+              h5.mb-3.text-center Crisis del nacimiento a la infancia
+              p.mb-0.text-center Se vive debido al paso de la protección uterina al medio ambiente, que se percibe como una situación hostil para el bebe, que requiere adaptación.
+                
+            .tarjeta.color-acento-botones.p-3(x="26%" y="60%" numero="2" style='border-radius: 10px; background-color: #FFE8C8')
+              h5.mb-3.text-center Crisis de pubertad
+              p.mb-0.text-center Los cambios en la maduración del sistema endocrino genera un impacto en el cuerpo, la mente, las emociones y por ende en la conducta que es muy evidente en los adolescentes. Algunos presentan crisis profundas en su identidad y es un periodo de riesgo para la salud mental.
+                
+            .tarjeta.color-acento-botones.p-3(x="47%" y="60%" numero="3" style='border-radius: 10px; background-color: #FFE8C8')
+              h5.mb-3.text-center Crisis de la primera juventud
+              p.mb-0.text-center Es un periodo largo de vida que va desde los 20 hasta los 40 años. En esta etapa se consolida el proyecto de vida, transformaciones en lo académico, laboral y familiar, es un periodo de acción, cambio y ajuste permanente.
+                
+            .tarjeta.color-acento-botones.p-3(x="67%" y="60%" numero="4" style='border-radius: 10px; background-color: #FFE8C8')
+              h5.mb-3.text-center Crisis de la edad media
+              p.mb-0.text-center Se configura en la entrada de los 45 a 65 años, en donde el miedo al envejecimiento, la partida de los hijos y los cambios de vida laboral generan angustia y confusión. La entrada de la menopausia y la andropausia impacta a nivel emocional y psicológico.
+                
+            .tarjeta.color-acento-botones.p-3(x="87%" y="60%" numero="5" style='border-radius: 10px; background-color: #FFE8C8')
+              h5.mb-3.text-center Crisis de la tercera edad
+              p.mb-0.text-center A partir de los 65 años hasta el final de la vida se viven las manifestaciones más claras del envejecimiento físico y cognitivo, lo que impacta la vida de las personas de acuerdo con el desgaste propio de la edad y la exclusión social que muchos adultos mayores viven.
+              
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-5.mb-4.mb-lg-0
             .row.mb-4
@@ -146,7 +147,7 @@
                 img(src='@/assets/curso/tema2/icon2.svg' alt='AvatarTop' style="width: 110px;").m-auto
             p.mb-4
                 b(style='color: #5BD3A9;') La o las personas afectadas tienen dificultades para lidiar con la situación
-            p.mb-0.text-white Como consecuencia del hecho traumático en cuerpo reacciona, presentando manifestaciones fisiológicas derivadas de la activación del sistema nervioso simpático, responsable de segregar hormonas para responder al estímulo y configurar reacciones aprendidas que permitan afrontar la situación de la mejor forma. Sin embargo, la situación se sale de control y se manifiestan experiencias de angustia, alteración cognitiva, llanto o ansiedad.
+            p.mb-0.text-white Como consecuencia del hecho traumático el cuerpo reacciona, presentando manifestaciones fisiológicas derivadas de la activación del sistema nervioso simpático, responsable de segregar hormonas para responder al estímulo y configurar reacciones aprendidas que permitan afrontar la situación de la mejor forma. Sin embargo, la situación se sale de control y se manifiestan experiencias de angustia, alteración cognitiva, llanto o ansiedad.
                 
           .col-md-4.tarjeta--tabla.p-4(data-aos="flip-right", style= "background: linear-gradient(180deg, #133D60, #1B5D95)")
             .row.justify-content-start.mb-4
@@ -181,23 +182,23 @@
                   img(src='@/assets/curso/tema2/infografia2.svg', alt='', style='')
                   
               .tarjeta.color-acento-botones.p-4(x="9%" y="22%" numero="1" style='border-radius: 10px; background-color: #FFE8C8')
-                h5.mb-3.text-center Fase uno Exposición al evento crítico
+                h5.mb-3.text-center Exposición al evento crítico
                 p.mb-0.text-center Produce tensión y puede aparecer un estado de shock que protege a la víctima de una condición abrumadora. De forma inconsciente el cerebro se prepara para dar una respuesta efectiva, sacando los recursos de afrontamiento aprendidos para recuperar el equilibrio.
                   
               .tarjeta.color-acento-botones.p-4(x="28%" y="80%" numero="2" style='border-radius: 10px; background-color: #FFE8C8')
-                h5.mb-3.text-center Fase dos Respuesta desorganizada
+                h5.mb-3.text-center Respuesta desorganizada
                 p.mb-0.text-center Hay aumento de la tensión y las respuestas emocionales y cognitivas fallan para enfrentar la crisis de forma adecuada. Las respuestas  se tornan confusas y  provocan  disfunciones.
                   
               .tarjeta.color-acento-botones.p-4(x="47%" y="22%" numero="3" style='border-radius: 10px; background-color: #FFE8C8')
-                h5.mb-3.text-center Fase tres Explosión
+                h5.mb-3.text-center Explosión
                 p.mb-0.text-center Se pierde el control de las emociones, los pensamientos y los comportamientos tienden a ser contradictorios. Las reacciones pueden pasar de pasivas a agresivas durante semanas.
                   
               .tarjeta.color-acento-botones.p-4(x="66%" y="77%" numero="4" style='border-radius: 10px; background-color: #FFE8C8')
-                h5.mb-3.text-center Fase cuatro Estabilización
+                h5.mb-3.text-center Estabilización
                 p.mb-0.text-center Inicia la calma a medida que aparecen los recursos alternos. La persona es muy vulnerable en este momento y puede volver a la fase de explosión . Hay cierto nivel de conciencia de lo que ha sucedido, pero las reacciones ya no son tan extremas.
                   
               .tarjeta.color-acento-botones.p-4(x="85%" y="22%" numero="5" style='border-radius: 10px; background-color: #FFE8C8')
-                h5.mb-3.text-center Fase cinco Adaptación
+                h5.mb-3.text-center Adaptación
                 p.mb-0.text-center Comienza el proceso de control sobre las acciones, puede concentrarse en otras situaciones, además del evento vivido, orienta interés por el futuro, se reactiva la socialización y puede descubrir nuevos rumbos a partir de la experiencia vivida.
                   
             figcaption 
@@ -256,7 +257,7 @@
                           
                       li 
                         i.fas.fa-check-circle(style="color: #008BFD;")
-                        p.mb-0 Incremento del ritmo cardiaco
+                        p.mb-0 Incremento del ritmo cardíaco
                           
                       li 
                         i.fas.fa-check-circle(style="color: #008BFD;")
@@ -428,7 +429,7 @@
             p.mb-0.text-white Incremento de conflictos con la familia
           li 
             i.fas.fa-check-circle
-            p.mb-0.text-white Llanto incontenido
+            p.mb-0.text-white Dependencia
 
     .row.mb-4
       .col-auto
@@ -446,25 +447,39 @@
               img(src='@/assets/curso/tema2/infografia3.svg', alt='imagen fografica', style='width: 512px;').m-auto
               
               
-          div(x="34%" y="32%" tooltip="Estrés agudo" numero="" )
-            //(:style="{'background-image': `url(${require('@/assets/curso/tema2/infografia1.svg')})`}" style='background-position: right top')
-            h4(style='color: #5BD3A9 !important;') Estrés agudo
-            p.mb-4.text-white Toda situación de peligro activa reacciones que desencadenan estrés. Esta es una reacción natural con la que cuenta el organismo para sobrevivir, Jhon W Barnhill, en el Manual MSD (2020), define el trastorno por estrés agudo como un período breve de recuerdos molestos que se produce 4 semanas después de haber sido testigo o de haber experimentado un episodio traumático. 
-            p.mb-0.text-white Volviendo al ejemplo del abuso sexual, la víctima puede empezar a presentar recuerdos, imágenes mentales breves e intrusivas, sueños con su agresor, recapitula momentos del hecho abusivo, recciones disociativas tipo flashbakcs, en donde la persona siente como si estuviera viviendo el abuso sexual nuevamente, lo que genera una angustia intensa y la activación fisiológica y emocional que vivió en ese momento. La persona tendrá dificultad para pensar con claridad, difícilmente experimentará alegría, tendrá sobresaltos y vivirá hipervigilante cuando sale a la calle o se encuentra sola, ya que siente miedo de que el hecho se repita.
+          div(x="34%" y="32%" tooltip="Estrés agudo" numero="+" )
+            .row.justify-content-center.align-items-center
+              .col-lg-7.mb-4.mb-lg-0
+                h4(style='color: #5BD3A9 !important;') Estrés agudo
+                p.mb-4.text-white Toda situación de peligro activa reacciones que desencadenan estrés. Esta es una reacción natural con la que cuenta el organismo para sobrevivir, Jhon W Barnhill, en el Manual MSD (2020), define el trastorno por estrés agudo como un período breve de recuerdos molestos que se produce 4 semanas después de haber sido testigo o de haber experimentado un episodio traumático. 
+                p.mb-0.text-white Volviendo al ejemplo del abuso sexual, la víctima puede empezar a presentar recuerdos, imágenes mentales breves e intrusivas, sueños con su agresor, recapitula momentos del hecho abusivo, recciones disociativas tipo flashbakcs, en donde la persona siente como si estuviera viviendo el abuso sexual nuevamente, lo que genera una angustia intensa y la activación fisiológica y emocional que vivió en ese momento. La persona tendrá dificultad para pensar con claridad, difícilmente experimentará alegría, tendrá sobresaltos y vivirá hipervigilante cuando sale a la calle o se encuentra sola, ya que siente miedo de que el hecho se repita.
+              .col-10.col-lg-5
+                figure
+                  img(src='@/assets/curso/tema2/infob1.svg', alt='imagen ambiental', style='width: 368px;').m-auto
               
-          div(x="68%" y="32%" tooltip="Tipos de traumas" numero="")
-            h4(style='color: #5BD3A9 !important;') Trastorno de estrés postraumático
-            p.mb-4.text-white Surge como una respuesta tardía o diferida a un evento estresante a la exposición con el evento estresante o a una situación breve o duradera de naturaleza excepcionalmente amenazante o catastrófica, que causaría por sí misma malestar generalizado a casi todo el mundo. (Clasificación Internacional de Enfermedades – CIE 10.)
-            p.mb-0.text-white Este trastorno se caracteriza por la reactivación de los síntomas y las reacciones emocionales, cognitivas y físicas, en momentos posteriores al evento, viviendo un proceso de reexperimentación constante, a través del recuerdo. La diferencia entre estos dos trastornos, agudo y postraumático radica en la duración de los síntomas y el tipo de trauma. Si los síntomas de reactivación del evento traumático persisten por más de cuatro semanas, y si el trauma es de tipo 2, se configura el TEPT.
+          div(x="68%" y="32%" tooltip="Tipos de traumas" numero="+")
+            .row.justify-content-center.align-items-center
+              .col-10.col-lg-5.mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/tema2/infob2.svg', alt='imagen ambiental', style='width: 368px;').m-auto
+              .col-lg-7
+                h4(style='color: #5BD3A9 !important;') Trastorno de estrés postraumático
+                p.mb-4.text-white Surge como una respuesta tardía o diferida a un evento estresante a la exposición con el evento estresante o a una situación breve o duradera de naturaleza excepcionalmente amenazante o catastrófica, que causaría por sí misma malestar generalizado a casi todo el mundo. (Clasificación Internacional de Enfermedades – CIE 10.)
+                p.mb-0.text-white Este trastorno se caracteriza por la reactivación de los síntomas y las reacciones emocionales, cognitivas y físicas, en momentos posteriores al evento, viviendo un proceso de reexperimentación constante, a través del recuerdo. La diferencia entre estos dos trastornos, agudo y postraumático radica en la duración de los síntomas y el tipo de trauma. Si los síntomas de reactivación del evento traumático persisten por más de cuatro semanas, y si el trauma es de tipo 2, se configura el TEPT.
               
-          div(x="50%" y="88%" tooltip="Trastorno de estrés postraumático" numero="")
-            h4(style='color: #5BD3A9 !important;') Tipos de traumas
-            p.mb-4.text-white 
-              b Un Trauma tipo 1: 
-              b-none surge como consecuencia del evento traumático casi de forma inmediata es susceptible de ser intervenido con la aplicación de los Primeros Auxilios Psicológicos, antes o durante las 72 horas siguientes y puede desencadenar Trastorno de estrés agudo. 
-            p.mb-0.text-white 
-              b El Trauma tipo 2: 
-              b-none es la cadena de eventos traumáticos en el tiempo, que prevalecen como consecuencia de situaciones de violencia, secuestro y abuso sistemático, Estos eventos son mucho más susceptibles de generar TEPT
+          div(x="50%" y="88%" tooltip="Trastorno de estrés postraumático" numero="+")
+            .row.justify-content-center.align-items-center
+              .col-lg-7.mb-4.mb-lg-0
+                h4(style='color: #5BD3A9 !important;') Tipos de traumas
+                p.mb-4.text-white 
+                  b Un Trauma tipo 1: 
+                  b-none surge como consecuencia del evento traumático casi de forma inmediata es susceptible de ser intervenido con la aplicación de los Primeros Auxilios Psicológicos, antes o durante las 72 horas siguientes y puede desencadenar Trastorno de estrés agudo. 
+                p.mb-0.text-white 
+                  b El Trauma tipo 2: 
+                  b-none es la cadena de eventos traumáticos en el tiempo, que prevalecen como consecuencia de situaciones de violencia, secuestro y abuso sistemático, Estos eventos son mucho más susceptibles de generar TEPT
+              .col-10.col-lg-5
+                figure
+                  img(src='@/assets/curso/tema2/infob3.svg', alt='imagen ambiental', style='width: 368px;').m-auto
               
 
 
@@ -514,7 +529,7 @@
             
         .row.mb-5
           .col-lg-12
-            SlyderE(indicadores="centro" style='background-color: #ffff')
+            SlyderE(indicadores="centro" style='')
               .row.justify-content-center.p-4
                 .col-md-7.mb-4.mb-md-0
                   h4.mb-4 Trabajar en sí mismo

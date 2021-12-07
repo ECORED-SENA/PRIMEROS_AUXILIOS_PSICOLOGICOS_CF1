@@ -181,139 +181,120 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Organización Panamericana de la Salud (2017). Depresión y otros trastornos mentales comunes. Estimaciones sanitarias mundiales. Washington, D.C. Licencia: CC BY-NC-SA 3.0 IGO.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://iris.paho.org/bitstream/handle/10665.2/34006/PAHONMH17005-spa.pdf',
     },
     {
-      referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+      referencia: 'Barnhill, J. (2020). Manual MSD para profesionales.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.msdmanuals.com/es-co/professional/trastornos-psiqui%C3%A1tricos/trastorno-de-ansiedad-y-trastornos-relacionados-con-el-estr%C3%A9s/trastorno-por-estr%C3%A9s-agudo',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Organización Mundial de la Salud, War Trauma Foundation y Visión Mundial Internacional (2012). Primera ayuda psicológica: Guía para trabajadores de campo. OMS: Ginebra.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'http://apps.who.int/iris/bitstream/handle/10665/44837/9789243548203_spa.pdf?sequence=1',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Universidad de Guadalajara, Centro Universitarios de ciencias de la salud (2014). Manual de primeros Auxilios Psicológicos.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.cucs.udg.mx/sites/default/files/adjuntos/manual_primeros_auxilios_psicologicos_2017.pdf',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Federación internacional de la Cruz Roja y la Luna Roja (2003). Apoyo Psicológico basado en la comunidad. Ginebra Suiza.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'https://www.hhri.org/es/publication/apoyo-psicologico-basado-en-la-comunidad-manual-de-formacion/',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Universidad Autónoma de Barcelona. (2018). Control de los niveles de activación tras incidentes críticos en adultos.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://d396qusza40orc.cloudfront.net/pap/docs-on-demand/modulo4/Lectura%20comentario%20RP%20aplicacion%20PAP%20en%20situaciones%20de%20activaci%C3%B3n%20emocional%20elevada%20%28Conflicto%20de%20codificaci%C3%B3n%20Unicode%29.pdf',
+    },
+    {
+      referencia:
+        'Red Nacional para el Estrés Traumático Infantil y el Centro Nacional de Trastorno de Estrés Postraumático (2006). Primeros Auxilios Psicológicos: Guía de Operaciones Practicas.',
+      link:
+        'http://www.shef.ac.uk/polopoly_fs/1.34752!/file/Psychological-First-%20Aid_Field-Operations-Guide_Spanish.pdf',
+    },
+    {
+      referencia:
+        'Prewit, D. 2001. Manual de Primeros Auxilios Psicológicos. Federación Internacional de sociedades de la Cruz Roja.',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Ansiedad',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Es un estado de inquietud o agitación del ánimo. Aunque no siempre es patológica (sino que es una emoción común que cumple con una función vinculada a la supervivencia), la ansiedad puede acompañar a algunas enfermedades como la neurosis.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Crisis',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Situación grave y decisiva que pone en peligro el desarrollo de un asunto o un proceso.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Emoción',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Reacción subjetiva al ambiente, acompañada de cambios orgánicos (fisiológicos y endocrinos), de origen innato, influida por la experiencia y que tiene función adaptativa.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Estado de ánimo',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Emoción generalizada y persistente que influye en la percepción del mundo.',
     },
     {
-      termino: 'Moda',
+      termino: 'Estrés',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'La respuesta fisiológica, psicológica y del comportamiento de una persona, para intentar adaptarse a los estímulos que le rodean.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Desastre',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Se entiende por desastre el daño o la alteración graves de las condiciones normales de vida en un área geográfica determinada, causado por fenómenos naturales y por efectos catastróficos de la acción del hombre en forma accidental, que requiera por ello de la especial atención de los organismos del estado y de otras entidades de carácter humanitario o de servicio social.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Pánico',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'El pánico, por lo tanto, es el miedo exagerado, que escapa de lo racional y que paraliza a la persona.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Primeros auxilios psicológicos',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Se refieren a la intervención psicológica en el momento de crisis, entendiéndose como una ayuda breve e inmediata de apoyo y rescate a la persona para restablecer su estabilidad emocional y facilitarle las condiciones de un continuo equilibrio personal.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Trastorno de estrés postraumático',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es un trastorno psicológico caracterizado por la aparición de síntomas específicos tras la exposición a un acontecimiento estresante, extremadamente traumático, que involucra un daño físico o es de naturaleza extraordinariamente amenazadora o catastrófica para el individuo.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
+        'Departamento Nacional de Planeación, Consejo nacional de política pública y social. (2020). Documento CONPES 3992. Estrategia para la promoción de la salud mental en Colombia. https://colaboracion.dnp.gov.co/CDT/Conpes/Econ%C3%B3micos/3992.pd',
+      tipo: 'Política pública – Material Normativo.',
+      descarga: '/downloads/norma.pdf',
+    },
+    {
+      texto:
+        'Ministerio de salud. Política nacional de salud mental. Resolución 4886 de 2018. https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/politica-nacional-salud-mental.pdf',
+      tipo: 'Norma',
+      descarga: '/downloads/politica-nacional-salud-mental.pdf',
+    },
+    {
+      texto: 'Bados, A. (2009). Fobias específicas. Universidad de Barcelona.',
+      tipo: 'Artículo',
       link: 'https://www.google.com/',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+        'Fundación Silencio – Unicef. (2020). Duelo: Manual de capacitación para acompañamiento y abordaje del duelo.',
+      tipo: 'Manual',
+      descarga: ['/downloads/Manual-duelo.pdf'],
     },
   ],
   creditos: {
@@ -329,7 +310,7 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     desarrolloProducto: [
@@ -337,43 +318,55 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Blanca Flor Torres Tinoco'],
         cargo: 'Diseño web',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'John Andres Ayala Angarita',
+        cargo: 'Desarrollo front-end',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Andrés Mauricio Santaella',
+        cargo: 'Soporte front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      /*{
+        nombre: '',
         cargo: 'Producción audiovisual',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: '',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },*/
+      {
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },
