@@ -211,14 +211,14 @@ export default {
     {
       referencia:
         'Universidad Autónoma de Barcelona. (2018). Control de los niveles de activación tras incidentes críticos en adultos.',
-      link:
-        'https://d396qusza40orc.cloudfront.net/pap/docs-on-demand/modulo4/Lectura%20comentario%20RP%20aplicacion%20PAP%20en%20situaciones%20de%20activaci%C3%B3n%20emocional%20elevada%20%28Conflicto%20de%20codificaci%C3%B3n%20Unicode%29.pdf',
+      //link:
+      //'https://d396qusza40orc.cloudfront.net/pap/docs-on-demand/modulo4/Lectura%20comentario%20RP%20aplicacion%20PAP%20en%20situaciones%20de%20activaci%C3%B3n%20emocional%20elevada%20%28Conflicto%20de%20codificaci%C3%B3n%20Unicode%29.pdf',
     },
     {
       referencia:
         'Red Nacional para el Estrés Traumático Infantil y el Centro Nacional de Trastorno de Estrés Postraumático (2006). Primeros Auxilios Psicológicos: Guía de Operaciones Practicas.',
-      link:
-        'http://www.shef.ac.uk/polopoly_fs/1.34752!/file/Psychological-First-%20Aid_Field-Operations-Guide_Spanish.pdf',
+      //link:
+      //'http://www.shef.ac.uk/polopoly_fs/1.34752!/file/Psychological-First-%20Aid_Field-Operations-Guide_Spanish.pdf',
     },
     {
       referencia:
@@ -312,6 +312,28 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+      {
+        nombre: 'Sonia Margarita Leal Cruz',
+        cargo: 'Experta temática',
+        centro:
+          'Centro de formación de Talento Humano en Salud - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Silvia Milena Sequeda Cárdenas',
+        cargo: 'Evaluadora instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital.',
+      },
+      {
+        nombre: 'Diana Marcela Luis Vásquez',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital.',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Diseñador y evaluador instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -332,6 +354,47 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Caceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Adriana Marcela Suárez Eljure',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Daniela Muñoz Bedoya',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Arnulfo Beltrán Mojica ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
         nombre: 'John Andres Ayala Angarita',
         cargo: 'Desarrollo front-end',
         centro:
@@ -343,18 +406,6 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
-      /*{
-        nombre: '',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },
-      {
-        nombre: '',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-      },*/
       {
         nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
