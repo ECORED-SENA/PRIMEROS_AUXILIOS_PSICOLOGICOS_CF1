@@ -102,22 +102,7 @@
                     i.fas.fa-check-circle(style="color: #008BFD")
                     p.mb-0 Los PAP deben contemplar la adaptación de las guías de aplicación, según enfoque diferencial e intercultural.
                       
-        .row
-          h4.text-center.mb-4 A MODO DE RESUMEN
-            
-          figure.mb-4
-            img(src='@/assets/curso/tema6/img2.svg' alt='imagen ambiental', style='').m-auto
-
-
-    .row
-      .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/salud-mental.pdf')" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p.m-0 
-              b Anexo. 
-              b-none Salud_mental
+       
 
 
 
