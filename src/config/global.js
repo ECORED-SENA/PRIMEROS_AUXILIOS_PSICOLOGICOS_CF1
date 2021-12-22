@@ -290,11 +290,11 @@ export default {
       tipo: 'Norma',
       descarga: '/downloads/politica-nacional-salud-mental.pdf',
     },
-    /*{
-      texto: 'Bados, A. (2009). Fobias específicas. Universidad de Barcelona.',
+    {
+      texto: 'Bados, A. (2005). Fobias específicas. Universidad de Barcelona.',
       tipo: 'Artículo',
-      link: 'https://www.google.com/',
-    },*/
+      descarga: '/downloads/fobia-espacifica.pdf',
+    },
     {
       texto:
         'Fundación Silencio - Unicef. (2020). Duelo: Manual de capacitación para acompañamiento y abordaje del duelo.',
