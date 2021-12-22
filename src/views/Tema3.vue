@@ -6,7 +6,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Lineamientos básicos de los Primeros Auxilios Psicológicos – PAP
+      h1 Lineamientos básicos de los Primeros Auxilios Psicológicos - PAP
     
     p.mb-4 Para comprender las bases de los PAP, se hace necesario hablar de la intervención en crisis.
 
@@ -59,7 +59,7 @@
     .row.justify-content-center.mb-5
       .col-lg-4.mb-4-mb-lg-0
         p.mb-0 Es así como los primeros auxilios psicológicos se convierten en una herramienta práctica de intervención para la vida cotidiana, aplicable en situaciones de estrés por impactos como la muerte, violencia intrafamiliar, situaciones de violencia urbana, condiciones laborales, desastres, emergencias. 
-          b(style='color: #008BFD;') Es claro que la salud mental se ve afectada por una serie de factores externos y condiciones internas,
+          b(style='color: #008BFD;') Es claro que la salud mental se ve afectada por una serie de factores externos y condiciones internas, 
           b-none que pueden ser disparadoras de una crisis en cualquier momento de la vida.
             
       .col-10.col-lg-4.mb-4.mb-lg-0.pe-lg-0
@@ -73,7 +73,7 @@
               figure
                 img(src='@/assets/curso/tema2/lineVert.svg' alt='AvatarTop', style='width: 68px').m-auto
           p.mb-0 
-            b(style='color: #008BFD;') Los PAP, son una herramienta de intervención que está validada por la comunidad científica,
+            b(style='color: #008BFD;') Los PAP, son una herramienta de intervención que está validada por la comunidad científica, 
             b-none que puede ser aplicada por personas entrenadas para ello, sin ser profesionales en salud mental, son aplicables para personas en cualquier etapa de su ciclo vital y pueden ser adaptables de acuerdo con las condiciones culturales y particulares de una persona o comunidad.
               
         p.mb-0.px-lg-4 De igual forma, se han diseñado para reducir la angustia y malestar que produce la vivencia de una situación traumática, promoviendo la adaptabilidad y el fortalecimiento de las habilidades de afrontamiento.
@@ -82,7 +82,7 @@
 
     separador
     #t_3_2.titulo-segundo.color-acento-contenido
-      .h2 3.2 Lineamientos para la aplicación de los Primeros Auxilios psicológicos – PAP
+      .h2 3.2 Lineamientos para la aplicación de los Primeros Auxilios psicológicos - PAP
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -96,7 +96,7 @@
               img(src="@/assets/curso/tema2/line2.svg", alt="alt", style='width: 84px').m-auto
           .col-lg.onTop
             .bg--green.neg--right.p-3
-              p.mb-0 Así mismo, el modelo de primeros auxilios psicológicos desarrollado por OMS, World Trauma Foundation y Visión Mundial Internacional en el 2012, establece los elementos para la aplicación de los primeros auxilios psicológicos – PAP. 
+              p.mb-0 Así mismo, el modelo de primeros auxilios psicológicos desarrollado por OMS, World Trauma Foundation y Visión Mundial Internacional en el 2012, establece los elementos para la aplicación de los primeros auxilios psicológicos - PAP. 
       .col-10.col-lg-5
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/tema3/img3.jpg', alt='imagen ambiental', style='width: 500px;').m-auto

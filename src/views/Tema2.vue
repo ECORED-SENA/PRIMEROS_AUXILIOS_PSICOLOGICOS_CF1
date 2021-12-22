@@ -195,7 +195,7 @@
                   
               .tarjeta.color-acento-botones.p-4(x="66%" y="77%" numero="4" style='border-radius: 10px; background-color: #FFE8C8')
                 h5.mb-3.text-center Estabilización
-                p.mb-0.text-center Inicia la calma a medida que aparecen los recursos alternos. La persona es muy vulnerable en este momento y puede volver a la fase de explosión . Hay cierto nivel de conciencia de lo que ha sucedido, pero las reacciones ya no son tan extremas.
+                p.mb-0.text-center Inicia la calma a medida que aparecen los recursos alternos. La persona es muy vulnerable en este momento y puede volver a la fase de explosión. Hay cierto nivel de conciencia de lo que ha sucedido, pero las reacciones ya no son tan extremas.
                   
               .tarjeta.color-acento-botones.p-4(x="85%" y="22%" numero="5" style='border-radius: 10px; background-color: #FFE8C8')
                 h5.mb-3.text-center Adaptación
@@ -377,13 +377,13 @@
               
           li 
             i.fas.fa-check-circle
-            p.mb-0.text-white Duda frente a sí mismo
+            p.mb-0.text-white Duda frente a sí mismo.
           li 
             i.fas.fa-check-circle
-            p.mb-0.text-white Baja autoestima
+            p.mb-0.text-white Baja autoestima.
           li 
             i.fas.fa-check-circle
-            p.mb-0.text-white Culpa
+            p.mb-0.text-white Culpa.
 
           
       .col-md.tarjeta.color-oscuro.p-5
@@ -395,17 +395,17 @@
         ul.lista-ul
           li 
             i.fas.fa-check-circle
-            p.mb-0.text-white Rabia
+            p.mb-0.text-white Rabia.
               
           li 
             i.fas.fa-check-circle
-            p.mb-0.text-white Irritabilidad
+            p.mb-0.text-white Irritabilidad.
           li 
             i.fas.fa-check-circle
-            p.mb-0.text-white Sensación de desesperanza
+            p.mb-0.text-white Sensación de desesperanza.
           li 
             i.fas.fa-check-circle
-            p.mb-0.text-white Llanto incontenido
+            p.mb-0.text-white Llanto incontenido.
           
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
@@ -416,20 +416,20 @@
         ul.lista-ul
           li 
             i.fas.fa-check-circle
-            p.mb-0.text-white Aislamiento 
+            p.mb-0.text-white Aislamiento.
               
           li 
             i.fas.fa-check-circle
-            p.mb-0.text-white Dificultad para expresar emociones
+            p.mb-0.text-white Dificultad para expresar emociones.
           li 
             i.fas.fa-check-circle
-            p.mb-0.text-white Hipervigilancia y sobresalto
+            p.mb-0.text-white Hipervigilancia y sobresalto.
           li 
             i.fas.fa-check-circle
-            p.mb-0.text-white Incremento de conflictos con la familia
+            p.mb-0.text-white Incremento de conflictos con la familia.
           li 
             i.fas.fa-check-circle
-            p.mb-0.text-white Dependencia
+            p.mb-0.text-white Dependencia.
 
     .row.mb-4
       .col-auto
@@ -457,7 +457,7 @@
                 figure
                   img(src='@/assets/curso/tema2/infob1.svg', alt='imagen ambiental', style='width: 368px;').m-auto
               
-          div(x="68%" y="32%" tooltip="Tipos de traumas" numero="+")
+          div(x="50%" y="88%" tooltip="Tipos de traumas" numero="+")
             .row.justify-content-center.align-items-center
               .col-10.col-lg-5.mb-4.mb-lg-0
                 figure
@@ -467,7 +467,7 @@
                 p.mb-4.text-white Surge como una respuesta tardía o diferida a un evento estresante a la exposición con el evento estresante o a una situación breve o duradera de naturaleza excepcionalmente amenazante o catastrófica, que causaría por sí misma malestar generalizado a casi todo el mundo. (Clasificación Internacional de Enfermedades – CIE 10.)
                 p.mb-0.text-white Este trastorno se caracteriza por la reactivación de los síntomas y las reacciones emocionales, cognitivas y físicas, en momentos posteriores al evento, viviendo un proceso de reexperimentación constante, a través del recuerdo. La diferencia entre estos dos trastornos, agudo y postraumático radica en la duración de los síntomas y el tipo de trauma. Si los síntomas de reactivación del evento traumático persisten por más de cuatro semanas, y si el trauma es de tipo 2, se configura el TEPT.
               
-          div(x="50%" y="88%" tooltip="Trastorno de estrés postraumático" numero="+")
+          div(x="68%" y="32%" tooltip="Trastorno de estrés postraumático" numero="+")
             .row.justify-content-center.align-items-center
               .col-lg-7.mb-4.mb-lg-0
                 h4(style='color: #5BD3A9 !important;') Tipos de traumas
@@ -552,7 +552,7 @@
               .row.justify-content-center.p-4
                 .col-md-7.mb-4.mb-md-0
                   h4.mb-4 Cuidar los pensamientos
-                  p.mb-0 Durante el duelo los recuerdos se avivan y pueden ayudar a super la tensión o pueden aumentar el dolor, por tanto, es mejor evitar contaminar la mente y no consumirse en la memoria que se despierta visitando ciertos lugares, viendo sus pertenencias, sus fotos; esto solo aumentará el malestar. Durante este periodo es mejor evitar la exigencia cognitiva ya que la atención y la concentración se ven afectadas.
+                  p.mb-0 Durante el duelo los recuerdos se avivan y pueden ayudar a superar la tensión o pueden aumentar el dolor, por tanto, es mejor evitar contaminar la mente y no consumirse en la memoria que se despierta visitando ciertos lugares, viendo sus pertenencias, sus fotos; esto solo aumentará el malestar. Durante este periodo es mejor evitar la exigencia cognitiva ya que la atención y la concentración se ven afectadas.
                     
                 .col-10.col-md-5
                   figure

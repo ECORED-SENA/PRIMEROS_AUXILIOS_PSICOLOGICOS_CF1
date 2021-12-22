@@ -280,24 +280,24 @@ export default {
   complementario: [
     {
       texto:
-        'Departamento Nacional de Planeación, Consejo nacional de política pública y social. (2020). Documento CONPES 3992. Estrategia para la promoción de la salud mental en Colombia. https://colaboracion.dnp.gov.co/CDT/Conpes/Econ%C3%B3micos/3992.pd',
-      tipo: 'Política pública – Material Normativo.',
+        'Departamento Nacional de Planeación, Consejo nacional de política pública y social. (2020). Documento CONPES 3992. Estrategia para la promoción de la salud mental en Colombia.',
+      tipo: 'Política pública - Material Normativo.',
       descarga: '/downloads/norma.pdf',
     },
     {
       texto:
-        'Ministerio de salud. Política nacional de salud mental. Resolución 4886 de 2018. https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/politica-nacional-salud-mental.pdf',
+        'Ministerio de salud. Política nacional de salud mental. Resolución 4886 de 2018.',
       tipo: 'Norma',
       descarga: '/downloads/politica-nacional-salud-mental.pdf',
     },
-    {
+    /*{
       texto: 'Bados, A. (2009). Fobias específicas. Universidad de Barcelona.',
       tipo: 'Artículo',
       link: 'https://www.google.com/',
-    },
+    },*/
     {
       texto:
-        'Fundación Silencio – Unicef. (2020). Duelo: Manual de capacitación para acompañamiento y abordaje del duelo.',
+        'Fundación Silencio - Unicef. (2020). Duelo: Manual de capacitación para acompañamiento y abordaje del duelo.',
       tipo: 'Manual',
       descarga: ['/downloads/Manual-duelo.pdf'],
     },
@@ -421,6 +421,11 @@ export default {
     gestoresRepositorio: [
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Daniel Felipe Varón Molina',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
